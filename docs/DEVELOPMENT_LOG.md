@@ -25,14 +25,19 @@ The jam started at 06:00 CET (00:00 ET).
 | 08:12 | Claude Code | First public documentation: README, AGENTS.md, asset provenance (submission declaration list), AI tools, technical decisions, this log. | DONE |
 | ~08:15 | Owner | Fab listing URLs and purchase status recorded for the three third-party packs. **Decision:** the current project is an experimental sandbox; once the build works, only the assets actually used are migrated into a clean project (TD-006). | DONE |
 | 08:17 | Owner | Created the project folder root (`_Game`) and the **DebugRoom** test level, set as the editor and game default map. | DONE |
+| ~08:24 | Owner | Added **Ultimate Horse System — Hivemind** (Fab, purchased) to the project. | DONE |
 | ~08:25 | Claude Code | Wrote the first gameplay C++: player character (walk/jog, limited turn rate, camera-relative movement with "sticky" input across camera cuts), placed cinematic camera shots, the Director that decides which shot is live, player controller and game mode (TD-007). | DONE |
 | 08:28–08:31 | Owner + Claude Code | Owner closed the editor; Claude Code built the editor target with UnrealBuildTool (succeeded) and committed the source to the private local repository. | DONE |
 | 08:33–08:37 | Claude Code | Through the Copilot MCP server: created the input assets (gamepad + keyboard), the Blueprint subclasses (UE5 Manny placeholder), and three test camera shots in DebugRoom. Play-in-Editor test with injected input: walk follows the live camera; holding the stick through a camera cut keeps the previous direction; a new press adopts the new camera; jog reaches 340 cm/s. No errors from project code in the log. | TESTED (automated input) |
-| — | Owner | Hands-on test with a physical gamepad. | PLANNED |
+| ~08:45 | Owner | Hands-on review. **Rejected** the interim locomotion (C++ character with the template animation blueprint): feet slide and it looks dated. Also rejected the first camera-switching behaviour. **Decision:** use Epic's Game Animation Sample character as-is for locomotion (Motion Matching, traversal over small obstacles). Rebuild the camera system in C++ following the owner's own pre-jam fixed-camera design (re-implemented, declared). | DONE (rejection recorded) |
+| 08:46–08:53 | Claude Code | Read-only dependency analysis of the owner's local copy of the Game Animation Sample (installed before the jam). The full dependency set was 5.3 GB, including the owner's personal pre-jam content and alternate display characters we do not need. The owner approved a reduced set of about 1.25 GB without them. | DONE |
+| 08:53 | Owner | Added a free western weapon pack from Fab (revolvers, ammunition, props). | DONE |
+| 08:54 | Claude Code | With the editor closed, imported 1,263 Game Animation Sample packages at their original paths. No file was overwritten, and original timestamps were kept. The exact import list is kept in the private project. | DONE |
+| ~08:57 | Claude Code | Player controller: camera-relative control for any pawn. The fixed camera's direction drives the control rotation that the sample character already uses, keeping the previous camera's direction across cuts while the stick is held. The editor target build succeeded. | BUILT, not tested yet |
+| 09:02–09:10 | Claude Code | Read the public jam page and the organizer's forum post and wrote [JAM_RULES.md](JAM_RULES.md). The Official Rules document did not load for the agent and is pending the owner's reading. Documented the [work routine](WORKFLOW.md). | DONE |
 
 ### Next
-- **PLANNED:** migrate the needed Game Animation Sample content (Epic) into the jam project.
-- **PLANNED:** C++ player character (Character Movement Component, Enhanced Input, Xbox gamepad first), with Manny as the placeholder.
-- **PLANNED:** Motion Matching setup with the Game Animation Sample data plus the third-party clips.
-- **PLANNED:** read the official jam rules and record sourced findings in `docs/JAM_RULES.md`. Not done yet.
+- **PLANNED:** set up the Game Animation Sample character in DebugRoom (walk as the default, run optional, no sprint), then test it in Play-in-Editor and with the owner.
+- **PLANNED:** rebuild the fixed-camera system in C++ (plane-crossing triggers with hysteresis, smooth blends, soft tracking, focus on the character, trigger volumes visible in the editor).
+- **PENDING OWNER REVIEW:** read the Official Rules.
 - **PLANNED:** duel vertical slice (cameras, timing bar, draw, fire). This is the Day 1 target.

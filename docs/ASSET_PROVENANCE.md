@@ -100,6 +100,19 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 
 ---
 
+## Pre-jam items to declare (summary)
+
+The jam page asks entrants to "Declare any prompts, scripts, or assets you made before the jam" (see [JAM_RULES.md](JAM_RULES.md)). Current list:
+
+| Item | Made / obtained | Status in the game |
+|---|---|---|
+| Game Animation Sample content (Epic) | Installed in the owner's local sample project on 2026-01-14 and upgraded to UE 5.8 before the jam. Imported into the jam project on 2026-11-12. | Third-party (Epic) locomotion content, used as-is. 9 files carry pre-jam re-save dates (see §4). |
+| Owner's fixed-camera prototype (Blueprint) | January 2026 | Design reference only. The logic is re-implemented in C++ during the jam; no assets copied. |
+| Agent rulebook ([AGENTS.md](../AGENTS.md)) | Written by the owner; creation date PENDING OWNER CONFIRMATION (local file saved 2026-11-12 07:38 CET). | Prompt/instructions for the agents, not game content. |
+| Copilot plugin agent guide (private text file) | Written by the owner in August 2026. | Prompt/tooling instructions, not game content. Not published (it covers other private projects). |
+| Tool setup: Ultimate Engine Copilot plugin and its MCP connection; a third-party Unreal Engine skills package for Claude Code | Set up before or at the jam start. | Tools only, allowed by the FAQ ("set up your tools, agents, and MCP ahead of time"). |
+| SoerGame Western Animations (Fab, purchased) | Purchase date PENDING (Fab receipt). | Third-party asset (§2). |
+
 ## Pre-jam owner work used as reference only
 
 | Item | Created | How it is used | Copied into the jam project? |

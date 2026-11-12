@@ -24,6 +24,7 @@ Each entry gives the decision, the date and time (CET), the reason, and the alte
 - **Why:** The owner wants fluid, modern movement, not stiff or dated state-machine motion.
 - **Alternative rejected:** a classic animation blueprint with blend spaces using only the free pack. It is simpler, but its 24 walk-only clips have no starts, stops or runs.
 - **Movement component:** Character Movement Component (CMC), not the Mover plugin.
+- **Update ~08:45 CET:** an interim placeholder (our own C++ character on the template blend-space animation blueprint) was built and tested, then rejected by the owner because of foot sliding and a dated look. Since then, the Game Animation Sample's own CMC character is used **as-is**: animation blueprint, Motion Matching databases, choosers and traversal for small obstacles. We add layers around it (cameras, controller) instead of replacing it. Walk is the default and run is optional; sprint is not used.
 
 ## TD-005 — Editor automation is development-only
 - **When:** 2026-11-12, 07:58 CET.
@@ -40,3 +41,13 @@ Each entry gives the decision, the date and time (CET), the reason, and the alte
 - **Decision:** Fixed cinematic camera shots are placed actors. A single world subsystem (the Director) decides which shot is on air. Requests come from the player (camera buttons) now, and from camera zones and sequences later. This is the core of the "Director's Cut" mechanic.
 - **Movement:** player input is relative to the live shot. When the camera cuts while the stick is held, the previous camera's frame is kept until the stick is released or turned past 45°. This prevents the classic fixed-camera problem where the character swerves on every cut.
 - **Reference:** the owner's pre-jam fixed-camera prototype was used as a design reference only. The jam implementation was written from scratch in C++; see [ASSET_PROVENANCE.md](ASSET_PROVENANCE.md).
+- **Update ~08:57 CET:** camera-relative movement now lives in the player controller. It sets the control rotation from the live fixed camera, keeping the previous direction across cuts while the stick is held. Any pawn that moves relative to its control rotation (including the sample character, unchanged) therefore walks relative to the fixed camera. The first camera-switching behaviour was rejected by the owner; switching will be rebuilt following the owner's design: plane-crossing trigger volumes with hysteresis, smooth blends, soft tracking, focus on the character, and volumes visible in the editor.
+
+## TD-008 — Build size budget: under 1 GB zipped
+- **When:** 2026-11-12, ~09:05 CET, after reading the jam page (see [JAM_RULES.md](JAM_RULES.md)).
+- **Constraint:** the desktop submission .zip must be under 1 GB.
+- **Consequences:**
+  - Prune unused Motion Matching sets (e.g. sprint, crouch) before the final build.
+  - Do not ship the sample's alternate display characters.
+  - Budget the MetaHumans (LODs, grooms, texture sizes), the horse and the environment.
+  - Measure the packaged size at every packaged build, starting with the first one.

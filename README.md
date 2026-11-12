@@ -19,6 +19,8 @@ MetaHuman source files, binaries and vendor packages stay private and local.
 | [docs/ASSET_PROVENANCE.md](docs/ASSET_PROVENANCE.md) | Third-party and pre-existing assets: source, license, declaration status |
 | [docs/AI_TOOLS.md](docs/AI_TOOLS.md) | AI and automation tools used, and how |
 | [docs/TECHNICAL_DECISIONS.md](docs/TECHNICAL_DECISIONS.md) | Technical choices and why |
+| [docs/WORKFLOW.md](docs/WORKFLOW.md) | The work routine: who decides, how each step is tested and recorded |
+| [docs/JAM_RULES.md](docs/JAM_RULES.md) | Sourced notes on the jam rules and what they mean for us |
 
 ## Team
 
