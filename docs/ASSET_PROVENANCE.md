@@ -181,7 +181,7 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Pre-jam? | No. It is a third-party asset bought during the jam. It was not created by the team. |
 | Contents | From the listing and the developer's guide (owner, 2026-11-12): a procedural crying system for MetaHuman characters (UE 5.8.4, MetaHuman 5.8, Win64; uses the ProceduralMeshComponent plugin). Tears form on the lower eyelids, run down the animated face and leave wet, reflective trails; simulation in Play and a cache for Sequencer. |
 | Planned use | Tears on the MetaHuman actors in the duel and close-ups. |
-| "Allows usage with AI: No" | A restriction on using the content as input to generative AI, separate from the commercial license. Project rule: **no AI agent opens, reads, analyses or rewrites this pack's files or source.** The owner installs, connects and edits it by hand; our code may only call its documented public functions. Our sweat effect is a separate system written during the jam, not derived from this pack. |
+| "Allows usage with AI: No" | A restriction on using the content as input to generative AI, separate from the commercial license. Project rule: **no AI agent opens, reads, analyses or rewrites this pack's files or source.** The owner installs, connects and edits it by hand; our code may only call its documented public functions. |
 | Build check | To test in PIE and in a packaged Windows build. |
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
