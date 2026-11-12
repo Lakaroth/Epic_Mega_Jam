@@ -2,6 +2,7 @@
 
 This is a record of every third-party and pre-existing component used in the private Unreal project.
 **It is the list of items to declare in the jam submission.** The final declaration covers the assets actually used in the submitted build. It will be cross-checked against the clean migration of the final maps.
+Entries marked **Tried and removed — not in the build** (§1, §7) are kept only as a record of what was tested; they are not part of the declaration.
 Submission-ready summary of the animations and Fab packs: [SUBMISSION_THIRD_PARTY.md](SUBMISSION_THIRD_PARTY.md).
 Only text is published here. Source assets, Blueprints, animations, plugins and packaged third-party project files are **never** published in this repository.
 
@@ -10,7 +11,7 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 
 ---
 
-## 1. Gamma Studio — Free Animation Pack (Fab)
+## 1. Gamma Studio — Free Animation Pack (Fab) — Tried and removed, not in the build
 
 | Field | Value |
 |---|---|
@@ -23,9 +24,8 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Pre-jam? | Third-party asset. It was not created by the team. |
 | Contents used | 24 motion-capture sequences at 120 fps on the UE5 Mannequin skeleton: 12 male unarmed clips (idle, gesture, 4-direction walk loops, 90° turn-in-place, injured idle/walk, walk transitions), 12 female rifle walk/aim clips and 2 door-kick clips. The pack also ships demo content with the UE5 Manny/Quinn mannequins and the Third Person template animation blueprint (Epic content). |
 | Use in game | **Not used in the game** as of 2026-11-12 12:45 CET. A test (12:20–12:40 CET) retargeted its 4 male unarmed walk loops to the sample's UEFN mannequin skeleton and added them to the walk Motion Matching database for a slower walk. The owner rejected the result, and everything from that test was removed (clips, retargeter, database entries, speed changes). |
-| Redistribution | Not redistributed. Shipped only inside the compiled game build. |
-| Submission declaration | To be declared as a third-party asset. Status: PENDING. |
-| Open questions | Record the Fab Library entitlement evidence. |
+| Redistribution | Not redistributed. Not in the build: the pack stays in the private sandbox project and is not migrated. |
+| Submission declaration | **Not declared as used** (not in the build). Record only. |
 
 ## 2. Western Animations — SoerGame (Fab)
 
@@ -100,7 +100,7 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
 | Open questions | Creator name and license from the listing. |
 
-## 7. Quantum Stage — FREE Motion Matching Walk Dance Card (Fab)
+## 7. Quantum Stage — FREE Motion Matching Walk Dance Card (Fab) — Tried and removed, not in the build
 
 | Field | Value |
 |---|---|
@@ -114,6 +114,7 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Use in game | **Not used in the game** as of 2026-11-12 13:10 CET. An owner A/B test (12:55–13:10 CET) retargeted the take to the Game Animation Sample's mannequin skeleton and swapped it in for the sample's walk; the owner rejected it, and every asset made for the test was removed. The pack itself is still in the private sandbox project and will not be migrated unless used. |
 | Credit | If used: credit **Quantum Stage / Mocap ATLAS** in the game and in the submission, and note the creator's email confirmation. |
 | Redistribution | Not redistributed. No source files in this repository. |
+| Submission declaration | **Not declared as used** (not in the build). Record only. |
 
 ## 8. Props made with Tripo during the jam (owner)
 
@@ -177,7 +178,6 @@ The jam page asks entrants to "Declare any prompts, scripts, or assets you made 
 | Item | Made / obtained | Status in the game |
 |---|---|---|
 | Game Animation Sample content (Epic) | Third-party Epic content, not made by the owner. The copy in the project is the unmodified 5.8 download (see §4). An earlier import from the owner's older local copy of the sample was used from 08:54 to ~10:20 CET on 2026-11-12 and then replaced. | Used as-is with the changes listed in the development log. |
-| Owner's fixed-camera prototype (Blueprint) | January 2026 | Design reference only. The logic is re-implemented in C++ during the jam; no assets copied. |
 | Agent rulebook ([AGENTS.md](../AGENTS.md)) | Written by the owner; creation date PENDING OWNER CONFIRMATION (local file saved 2026-11-12 07:38 CET). | Prompt/instructions for the agents, not game content. |
 | Copilot plugin agent guide (private text file) | Written by the owner in August 2026. | Prompt/tooling instructions, not game content. Not published (it covers other private projects). |
 | Tool setup: Ultimate Engine Copilot plugin and its MCP connection; a third-party Unreal Engine skills package for Claude Code | Set up before or at the jam start. | Tools only, allowed by the FAQ ("set up your tools, agents, and MCP ahead of time"). |
@@ -185,12 +185,6 @@ The jam page asks entrants to "Declare any prompts, scripts, or assets you made 
 | Animaster Studio Eating and Drinking Animation Pack (Fab, purchased) | Bought by the owner during the jam, 2026-11-12 ~14:05 CET. Not pre-jam; listed here so the submission declares it. | Third-party asset (§9). Not yet in the project. |
 | Ezio Tears – Crying System (Fab, purchased) | Bought by the owner during the jam, 2026-11-12 ~16:30 CET. Not pre-jam; listed here so the submission declares it. | Third-party asset (§11). Not yet in the project. |
 | **Trevor "Angel Eyes" Ramsey** (hero MetaHuman) | Created by the owner on 2026-11-11, the day before the jam. Built with MetaHuman Creator and the owner's proprietary MetaWrap tool. Clothing (shirt, trousers) made by the owner; the hat was made with the Tripo AI tool (see AI_TOOLS.md). Hat-hair groom made by the owner. | Pre-jam owner work, imported into the jam project on 2026-11-12 (~11:20 CET, optimized version). Declared as pre-jam. |
-
-## Pre-jam owner work used as reference only
-
-| Item | Created | How it is used | Copied into the jam project? |
-|---|---|---|---|
-| Owner's fixed-camera prototype (UE 5.7, Blueprint, separate personal project) | Before the jam (January 2026) | Design reference for the fixed-camera behaviour: trigger-based camera switching and soft tracking. | **No.** No assets or code were copied. The jam camera system was written from scratch in C++ on 2026-11-12 (see TECHNICAL_DECISIONS TD-007). Declare as pre-jam design reference. |
 
 ---
 

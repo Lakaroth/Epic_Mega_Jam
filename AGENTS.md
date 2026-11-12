@@ -58,7 +58,7 @@ Scope discipline: focus on one memorable duel; limited saloon and 2–3 meaningf
 3. Agreed technical stack
 - Engine: Unreal Engine 5.8.4, C++, Windows packaged build.
 - Locomotion: existing GASP template with Motion Matching; integrate western animation pack Western Animations — SoerGame (Fab) via appropriate retargeting/animation layers.
-- Cameras: owner has a previously developed fixed-camera Blueprint; evaluate/adapt or rewrite only if simpler. Fixed-camera cinematography plus camera switching in Sequencer and gameplay.
+- Cameras: a new C++ fixed-camera system written during the jam (the Director subsystem, camera shot actors, trigger volumes). Fixed-camera cinematography plus camera switching in Sequencer and gameplay.
 - Characters: bespoke MetaHuman hero and villain. Reusable supporting NPC outfits/variants; bartender and female character where useful. Optimize LOD/groom/outfits.
 - Clothing: skeletal wardrobe; poncho Chaos Cloth is optional polish after gameplay is solid.
 - Horse: horse asset from Fab; third-party riding / horse Motion Matching project under investigation. Verify license and compatibility before including. Mount/dismount and rider alignment need tests.

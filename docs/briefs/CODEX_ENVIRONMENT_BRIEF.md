@@ -80,7 +80,7 @@ Use real-world size, and keep each object's pivot at its base. Approximate sizes
 | Geometry | Nanite on for meshes over about 5k triangles. Keep small props light. |
 | Materials | A few **master materials** (weathered wood, plaster/adobe, rusty metal, ground) and their instances, with tint and wear parameters. Reuse them; do not make one material per prop. |
 | Textures | **2K max** for hero assets, 1K for small props, packed `ORM` maps. |
-| Budget | Your whole delivery must stay **under 300 MB on disk**. The final game zip must be under 1 GB. |
+| Budget | Your whole delivery must stay **under 300 MB on disk**. Keep the game lean; a final zip over 1 GB is uploaded with butler (jam page). |
 | Engine content | Do not edit engine or Starter Content assets. Do not reference Starter Content. |
 | Project settings | Keep 5.8 defaults (Lumen, Virtual Shadow Maps). Do not add plugins without telling the owner. |
 

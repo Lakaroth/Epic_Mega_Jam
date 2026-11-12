@@ -17,10 +17,12 @@ Each entry gives the decision, the date and time (CET), the reason, and the alte
 - **When:** 2026-11-12, Day 1 morning.
 - **Decision:** Gameplay is built and tested on the UE5 Mannequin (Manny). The bespoke MetaHumans replace it later through animation retargeting.
 - **Why:** Gameplay does not wait for the character work.
+- **Superseded (~11:10 CET) by TD-010:** the hero MetaHuman is now the visible player; the sample's mannequin stays hidden and drives it.
 
 ## TD-004 — Locomotion: Motion Matching
 - **When:** 2026-11-12, ~08:10 CET (owner decision).
-- **Decision:** Player locomotion uses Motion Matching (Pose Search). The database combines Epic's Game Animation Sample clips (starts, stops, pivots, turn-in-place, runs) with the third-party animation packs listed in [ASSET_PROVENANCE.md](ASSET_PROVENANCE.md).
+- **Decision:** Player locomotion uses Motion Matching (Pose Search) with the Game Animation Sample's own databases, unchanged: only Epic's sample clips (starts, stops, pivots, turn-in-place, walks, runs).
+- **Current state (17:40 CET):** no third-party clips are in the Motion Matching databases. Two tests that added third-party walks (Gamma Studio 12:20–12:40, Quantum Stage 12:55–13:10) were rejected by the owner and fully removed. The first version of this entry planned a mixed database; that plan was dropped.
 - **Why:** The owner wants fluid, modern movement, not stiff or dated state-machine motion.
 - **Alternative rejected:** a classic animation blueprint with blend spaces using only the free pack. It is simpler, but its 24 walk-only clips have no starts, stops or runs.
 - **Movement component:** Character Movement Component (CMC), not the Mover plugin.
@@ -40,17 +42,17 @@ Each entry gives the decision, the date and time (CET), the reason, and the alte
 - **When:** 2026-11-12, ~08:25 CET.
 - **Decision:** Fixed cinematic camera shots are placed actors. A single world subsystem (the Director) decides which shot is on air. Requests come from the player (camera buttons) now, and from camera zones and sequences later. This is the core of the "Director's Cut" mechanic.
 - **Movement:** player input is relative to the live shot. When the camera cuts while the stick is held, the previous camera's frame is kept until the stick is released or turned past 45°. This prevents the classic fixed-camera problem where the character swerves on every cut.
-- **Reference:** the owner's pre-jam fixed-camera prototype was used as a design reference only. The jam implementation was written from scratch in C++; see [ASSET_PROVENANCE.md](ASSET_PROVENANCE.md).
+- **Implementation:** a new C++ camera system written during the jam (the Director world subsystem, camera shot actors and trigger volumes).
 - **Update ~08:57 CET:** camera-relative movement now lives in the player controller. It sets the control rotation from the live fixed camera, keeping the previous direction across cuts while the stick is held. Any pawn that moves relative to its control rotation (including the sample character, unchanged) therefore walks relative to the fixed camera. The first camera-switching behaviour was rejected by the owner; switching will be rebuilt following the owner's design: plane-crossing trigger volumes with hysteresis, smooth blends, soft tracking, focus on the character, and volumes visible in the editor.
 
-## TD-008 — Build size budget: under 1 GB zipped
-- **When:** 2026-11-12, ~09:05 CET, after reading the jam page (see [JAM_RULES.md](JAM_RULES.md)).
-- **Constraint:** the desktop submission .zip must be under 1 GB.
-- **Consequences:**
-  - Prune unused Motion Matching sets (e.g. sprint, crouch) before the final build.
-  - Do not ship the sample's alternate display characters.
-  - Budget the MetaHumans (LODs, grooms, texture sizes), the horse and the environment.
+## TD-008 — Build size: lean, not capped at 1 GB
+- **When:** 2026-11-12, ~09:05 CET; corrected ~17:40 CET.
+- **Rule (jam page, see [JAM_RULES.md](JAM_RULES.md)):** "Desktop and mobile: keep it under 1 GB. For bigger builds, use butler or Blendo Itch Uploader." 1 GB is the limit for a normal upload, not a limit on the game; the page sets no maximum for butler uploads.
+- **Decision:** quality comes first (MetaHumans, textures, lighting). If the packaged .zip is over 1 GB, it is uploaded with butler.
+- **Still:**
+  - Unused content does not ship: the clean migration brings only the assets actually used (TD-006), so unused sample sets and the sample's alternate display characters stay out.
   - Measure the packaged size at every packaged build, starting with the first one.
+- **Correction:** the first version of this entry said the .zip "must be under 1 GB". That misread the jam page.
 
 ## TD-009 — Game Animation Sample 5.8, unmodified download
 - **When:** 2026-11-12, ~10:20 CET.
