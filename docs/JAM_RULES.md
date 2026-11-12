@@ -24,3 +24,20 @@ Quotes are verbatim from the jam page unless noted. The "What it means for us" c
 ## Open questions (PENDING OWNER REVIEW)
 - Read the Official Rules: platform requirement, accepted engine version for desktop builds, where declarations go, and the disqualification list.
 - Where in the submission form do pre-jam declarations and the asset list go? This is not stated on the page.
+
+## Prize targets (owner strategy, checked against the jam page)
+
+We are a **solo developer** (Elvis Morelli) working with AI agents. We aim for quality, not for extra features added only to chase prizes.
+
+| Target | Type on the jam page | What it rewards / requires |
+|---|---|---|
+| **Best Overall, Unreal Engine** | Main category: $7,500 / $5,000 / $2,500 | The best game overall. |
+| **Render Royalty** | Modifier: $2,500 + partner prizes | "Best visuals, photoreal or stylized". Our focus: MetaHuman close-ups, lighting, interactive direction. |
+| **NVIDIA RTX Award** (part of Render Royalty) | Partner award: one GeForce RTX 5090 | Must really use NvRTX, **DLSS 4.5 (Unreal Engine)** or NVIDIA ACE in the build, and answer the NVIDIA questions at submission. Optional; only if an official integration is stable. |
+| **Solo Driver** | Modifier: $2,500 + partner prizes | "Best game built by a solo developer". |
+| **Glass Box** | Modifier: $2,500 + AMD prize | "Best dev log showing how you built your game". This repository is our dev log. |
+| Development Continuation Grants | Separate: up to $50,000 / $25,000 / $10,000 | For "standout" entries. The page does not say how they are chosen. |
+
+**Corrections to our earlier assumptions:**
+- Render Royalty is a **modifier** category, not a main category.
+- The jam page does **not** state a limit such as "one main category and one modifier per submission". It may be in the Official Rules: **PENDING OWNER REVIEW**. We do not assume prizes can or cannot be combined.

@@ -24,5 +24,5 @@ MetaHuman source files, binaries and vendor packages stay private and local.
 
 ## Team
 
-- Elvis Morelli ([Lakaroth](https://github.com/Lakaroth)), owner and developer
-- Claude Code (Anthropic) and Ultimate Engine Copilot as development agents. See [docs/AI_TOOLS.md](docs/AI_TOOLS.md).
+**Solo developer:** Elvis Morelli ([Lakaroth](https://github.com/Lakaroth)).
+He works with AI development agents (Claude Code by Anthropic and the Ultimate Engine Copilot plugin). The agents are tools, not team members; see [docs/AI_TOOLS.md](docs/AI_TOOLS.md) and [docs/WORKFLOW.md](docs/WORKFLOW.md).
