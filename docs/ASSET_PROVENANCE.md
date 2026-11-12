@@ -169,6 +169,22 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
 
+## 12. Saloon Interior — Quixel Megascans (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | Quixel Megascans (Fab seller, from the listing). |
+| Source | Fab Marketplace: https://www.fab.com/listings/57991a62-f98f-4c6a-9b94-a74ec12f242e |
+| Status | **FREE** on Fab. Chosen by the owner during the jam (owner, 2026-11-12 evening). |
+| License | PENDING OWNER REVIEW. The listing page shows no named license ("License terms: -"); record the license shown in the owner's Fab Library entry. The listing says "Generated with AI: No" and "Allows usage with AI: Yes". |
+| Acquired | 2026-11-12, during the jam (exact time from the Fab Library PENDING). |
+| Added to project | Not yet (2026-11-12). |
+| Pre-jam? | No. It is a third-party asset added during the jam. It was not created by the team. |
+| Contents | From the listing: a modular saloon interior set of 73 assets (bar, bar stools, tables, vintage signs, decorations). FBX meshes with JPG textures (1K, 2K, 4K or 8K); a showcase scene for Unreal Engine 5.4-5.6. The listing gives no polygon counts. |
+| Planned use | Set dressing for the saloon/inn interior (Blockout_Rooms inn). |
+| Redistribution | Not redistributed. Shipped only inside the compiled game build. |
+| Submission declaration | To be declared as a third-party asset. Status: PENDING. |
+
 ---
 
 ## Pre-jam items to declare (summary)

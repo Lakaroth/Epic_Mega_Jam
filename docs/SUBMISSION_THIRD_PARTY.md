@@ -24,6 +24,7 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 | Ultimate Horse System | Hivemind | [Fab listing](https://www.fab.com/listings/0f1d9f24-9f5a-42dd-8934-5d6dbf1bc002) | Purchased on Fab **during the jam**, 2026-11-12 | Planned: the horse, riding, mount and dismount, the horse drinking at the trough. | In the project, **not yet in gameplay** |
 | HS_WeaponPack_03 (western weapons) | PENDING (to be read from the listing) | [Fab listing](https://www.fab.com/listings/05c6741c-5233-4367-9c0d-67b49c8aa745) | Free on Fab, added **during the jam**, 2026-11-12 | Planned: revolvers, ammunition and weapon props for the duel and target practice. | In the project, **not yet in gameplay** |
 | Ezio Tears – Crying System | Ezz Eldin Medhat | [Fab listing](https://www.fab.com/listings/a16ff48e-2e40-46d6-8147-430b6e6b69e3) | Purchased on Fab **during the jam**, 2026-11-12 | Planned: tears, sweat and wet skin on the MetaHuman actors in the duel and close-ups. | **Not yet in the project** |
+| Saloon Interior | Quixel Megascans | [Fab listing](https://www.fab.com/listings/57991a62-f98f-4c6a-9b94-a74ec12f242e) | Free on Fab, added **during the jam**, 2026-11-12 | Planned: saloon interior set dressing (bar, stools, tables, signs, decorations) in the inn. | **Not yet in the project** |
 
 ## 3. Epic Games engine content
 
@@ -46,6 +47,7 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 - [ ] **Owner:** license tier and receipt date from the Fab Library for each purchased pack: SoerGame and Hivemind first, then Animaster Studio and Ezio Tears.
 - [ ] Ezio Tears: confirm what its "Allows usage with AI: No" flag covers (full Fab EULA text).
 - [ ] Fab Library entitlement for HS_WeaponPack_03 (free).
+- [ ] Saloon Interior (Quixel Megascans, free): record the license shown in the Fab Library (the listing page shows none).
 - [ ] Creator name of HS_WeaponPack_03.
 - [ ] Remove the rows for packs that do not ship. Packs that are not used are not migrated into the final project.
 - [ ] Update each "Use in the game" cell to what the final build really uses.
@@ -53,6 +55,6 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 ## Text for the submission form (draft)
 
 > Third-party content (not made by the entrant, used under each source's license, shipped only inside the compiled game):
-> Game Animation Sample 5.8 by Epic Games (player locomotion and traversal); Western Animations by SoerGame (Fab); Eating and Drinking Animation Pack by Animaster Studio (Fab, bought during the jam); Ultimate Horse System by Hivemind (Fab, bought during the jam); Ezio Tears – Crying System by Ezz Eldin Medhat (Fab, bought during the jam); HS_WeaponPack_03 (Fab, free); UE5 mannequins and MetaHuman framework by Epic Games.
+> Game Animation Sample 5.8 by Epic Games (player locomotion and traversal); Western Animations by SoerGame (Fab); Eating and Drinking Animation Pack by Animaster Studio (Fab, bought during the jam); Ultimate Horse System by Hivemind (Fab, bought during the jam); Ezio Tears – Crying System by Ezz Eldin Medhat (Fab, bought during the jam); Saloon Interior by Quixel Megascans (Fab, free); HS_WeaponPack_03 (Fab, free); UE5 mannequins and MetaHuman framework by Epic Games.
 
 This draft lists every pack currently planned. Before submitting, cut it to the packs that ship.
