@@ -2,6 +2,7 @@
 
 This is a record of every third-party and pre-existing component used in the private Unreal project.
 **It is the list of items to declare in the jam submission.** The final declaration covers the assets actually used in the submitted build. It will be cross-checked against the clean migration of the final maps.
+Submission-ready summary of the animations and Fab packs: [SUBMISSION_THIRD_PARTY.md](SUBMISSION_THIRD_PARTY.md).
 Only text is published here. Source assets, Blueprints, animations, plugins and packaged third-party project files are **never** published in this repository.
 
 Status legend: **VERIFIED** (evidence on file) · **PENDING OWNER REVIEW** · **UNVERIFIED**.
