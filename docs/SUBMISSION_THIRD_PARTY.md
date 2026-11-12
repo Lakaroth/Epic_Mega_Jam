@@ -1,7 +1,7 @@
 # Third-party animations and Fab packs — submission declaration
 
 **Game:** Director's Cut (2026 Epic AI MegaJam), by Elvis Morelli (Lakaroth).
-**Status as of:** 2026-11-12, 14:15 CET. The final version must match the submitted build: only packs that ship in the build stay in the list.
+**Status as of:** 2026-11-12, 16:31 CET. The final version must match the submitted build: only packs that ship in the build stay in the list.
 
 None of the content below was made by the entrant. Each pack is used under the license from its source and ships only inside the compiled game. No source files are redistributed: the public repository holds text documentation only.
 
@@ -25,6 +25,7 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 |---|---|---|---|---|---|
 | Ultimate Horse System | Hivemind | [Fab listing](https://www.fab.com/listings/0f1d9f24-9f5a-42dd-8934-5d6dbf1bc002) | Purchased on Fab **during the jam**, 2026-11-12 | Planned: the horse, riding, mount and dismount, the horse drinking at the trough. | In the project, **not yet in gameplay** |
 | HS_WeaponPack_03 (western weapons) | PENDING (to be read from the listing) | [Fab listing](https://www.fab.com/listings/05c6741c-5233-4367-9c0d-67b49c8aa745) | Free on Fab, added **during the jam**, 2026-11-12 | Planned: revolvers, ammunition and weapon props for the duel and target practice. | In the project, **not yet in gameplay** |
+| Ezio Tears – Crying System | Ezz Eldin Medhat | [Fab listing](https://www.fab.com/listings/a16ff48e-2e40-46d6-8147-430b6e6b69e3) | Purchased on Fab **during the jam**, 2026-11-12 | Planned: tears, sweat and wet skin on the MetaHuman actors in the duel and close-ups. | **Not yet in the project** |
 
 ## 3. Epic Games engine content
 
@@ -37,7 +38,8 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 
 ## To complete before submission
 
-- [ ] License tier and receipt date for each purchased pack (SoerGame, Animaster Studio, Hivemind).
+- [ ] License tier and receipt date for each purchased pack (SoerGame, Animaster Studio, Hivemind, Ezio Tears).
+- [ ] Ezio Tears: confirm what its "Allows usage with AI: No" flag covers (full Fab EULA text).
 - [ ] Fab Library entitlement for each free pack (Gamma Studio, HS_WeaponPack_03, Quantum Stage).
 - [ ] Creator name of HS_WeaponPack_03.
 - [ ] Remove the rows for packs that do not ship. Packs that are not used are not migrated into the final project.
@@ -46,6 +48,6 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 ## Text for the submission form (draft)
 
 > Third-party content (not made by the entrant, used under each source's license, shipped only inside the compiled game):
-> Game Animation Sample 5.8 by Epic Games (player locomotion and traversal); Western Animations by SoerGame (Fab); Eating and Drinking Animation Pack by Animaster Studio (Fab, bought during the jam); Ultimate Horse System by Hivemind (Fab, bought during the jam); HS_WeaponPack_03 (Fab, free); UE5 mannequins and MetaHuman framework by Epic Games.
+> Game Animation Sample 5.8 by Epic Games (player locomotion and traversal); Western Animations by SoerGame (Fab); Eating and Drinking Animation Pack by Animaster Studio (Fab, bought during the jam); Ultimate Horse System by Hivemind (Fab, bought during the jam); Ezio Tears – Crying System by Ezz Eldin Medhat (Fab, bought during the jam); HS_WeaponPack_03 (Fab, free); UE5 mannequins and MetaHuman framework by Epic Games.
 
 This draft lists every pack currently planned. Before submitting, cut it to the packs that ship.
