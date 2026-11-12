@@ -99,6 +99,21 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
 | Open questions | Creator name and license from the listing. |
 
+## 7. Quantum Stage — FREE Motion Matching Walk Dance Card (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | Quantum Stage – Swiss Mocap Animations (Mocap ATLAS) |
+| Source | Fab Marketplace: https://www.fab.com/listings/1da7ad14-de22-426d-8ca0-7d467e43fc49 |
+| Status | Free. |
+| License | The Fab listing shows no license terms. The owner reports that Quantum Stage confirmed by email that the dataset may be used. Email date: PENDING. |
+| Added to project | 2026-11-12 ~12:33 CET (`/Game/QS_MM_Sample`). |
+| Pre-jam? | Third-party asset. It was not created by the team. |
+| Contents | One 42 s motion-capture walk take (forward walk with left and right turns of 45°, 90°, 135° and 180°) for the UE5 Mannequin and MetaHuman skeletons, demo meshes, a demo map and a sequence. |
+| Use in game | **UNDER EVALUATION** (owner A/B test from 12:55 CET). The take was retargeted to the Game Animation Sample's mannequin skeleton and its root motion was built from the pelvis path; it can replace the sample's walk loops and walk turns at runtime. Declared and credited only if kept. |
+| Credit | If used: credit **Quantum Stage / Mocap ATLAS** in the game and in the submission, and note the creator's email confirmation. |
+| Redistribution | Not redistributed. No source files in this repository. |
+
 ---
 
 ## Pre-jam items to declare (summary)
