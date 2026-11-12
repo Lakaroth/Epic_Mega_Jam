@@ -63,6 +63,7 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Use in game | Player locomotion: the sample's CMC character, animation blueprint, Motion Matching databases and choosers, traversal (small obstacles) and input, used as-is. Unused sets (e.g. sprint, crouch) will be pruned before the clean migration. |
 | Status | **Imported 2026-11-12 08:54 CET**: 1,263 packages (~1.25 GB), copied at their original paths with original timestamps. A further 167 packages (34 MB: foley sounds, aim offsets, a few locomotion clips) that the first dependency scan had missed were added at 09:42 CET, for **1,430 packages** in total. The exact file list is kept locally. |
 | Excluded on purpose | The owner's pre-jam personal content in that local project (a custom Mover-based character, the owner's own MetaHuman and outfits), and the sample's alternate display characters (Echo, Paragon, UE4/UE5 mannequins, sample MetaHumans), which are not needed. |
+| MetaHuman support | 2026-11-12 ~11:08 CET: the sample's generic runtime retarget (mannequin to MetaHuman), the shared MetaHuman files and Epic's sample MetaHuman "Kellan" (used only to test the pipeline) were imported from the same Epic sample. |
 | Note | 9 of the 1,263 copied files (UEFN mannequin materials, meshes, rig, textures) carry January 2026 modification dates later than the sample install, from the owner's pre-jam project. They are most likely engine re-saves during the 5.8 upgrade. Content changes are UNVERIFIED; declare if any owner edit is confirmed. |
 
 ## 5. Ultimate Horse System — Hivemind (Fab)
@@ -112,6 +113,7 @@ The jam page asks entrants to "Declare any prompts, scripts, or assets you made 
 | Copilot plugin agent guide (private text file) | Written by the owner in August 2026. | Prompt/tooling instructions, not game content. Not published (it covers other private projects). |
 | Tool setup: Ultimate Engine Copilot plugin and its MCP connection; a third-party Unreal Engine skills package for Claude Code | Set up before or at the jam start. | Tools only, allowed by the FAQ ("set up your tools, agents, and MCP ahead of time"). |
 | SoerGame Western Animations (Fab, purchased) | Purchase date PENDING (Fab receipt). | Third-party asset (§2). |
+| **Trevor "Angel Eyes" Ramsey** (hero MetaHuman) | Created by the owner on 2026-11-11, the day before the jam. Built with MetaHuman Creator and the owner's proprietary MetaWrap tool. Clothing (shirt, trousers) made by the owner; the hat was made with the Tripo AI tool (see AI_TOOLS.md). Hat-hair groom made by the owner. | Pre-jam owner work, imported into the jam project on 2026-11-12 (~11:20 CET, optimized version). Declared as pre-jam. |
 
 ## Pre-jam owner work used as reference only
 
