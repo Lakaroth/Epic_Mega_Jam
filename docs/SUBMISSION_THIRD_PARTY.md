@@ -23,8 +23,8 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 |---|---|---|---|---|---|
 | Ultimate Horse System | Hivemind | [Fab listing](https://www.fab.com/listings/0f1d9f24-9f5a-42dd-8934-5d6dbf1bc002) | Purchased on Fab **during the jam**, 2026-11-12 | Planned: the horse, riding, mount and dismount, the horse drinking at the trough. | In the project, **not yet in gameplay** |
 | HS_WeaponPack_03 (western weapons) | PENDING (to be read from the listing) | [Fab listing](https://www.fab.com/listings/05c6741c-5233-4367-9c0d-67b49c8aa745) | Free on Fab, added **during the jam**, 2026-11-12 | Planned: revolvers, ammunition and weapon props for the duel and target practice. | In the project, **not yet in gameplay** |
-| Saloon Interior | Quixel Megascans | [Fab listing](https://www.fab.com/listings/57991a62-f98f-4c6a-9b94-a74ec12f242e) | Acquired by the owner **before the jam** (pre-existing; license PENDING VERIFICATION) | Planned: the demo's saloon interior (bar, stools, tables, signs, decorations). | **Not yet in the project** |
-| Ezio Tears – Crying System | Ezz Eldin Medhat | [Fab listing](https://www.fab.com/listings/a16ff48e-2e40-46d6-8147-430b6e6b69e3) | Purchased on Fab **during the jam**, 2026-11-12 (Fab Standard License) | Planned: tears on the MetaHuman actors in the duel and close-ups (installed and connected by the owner; no AI agent opens it: "Allows usage with AI: No"). | **Not yet in the project** |
+| Saloon Interior | Quixel Megascans | [Fab listing](https://www.fab.com/listings/57991a62-f98f-4c6a-9b94-a74ec12f242e) | Acquired by the owner **before the jam** (pre-existing; license PENDING VERIFICATION) | Planned: the demo's saloon interior (bar, stools, tables, signs, decorations). | In the project (2026-11-12), **not yet in gameplay** |
+| Ezio Tears – Crying System | Ezz Eldin Medhat | [Fab listing](https://www.fab.com/listings/a16ff48e-2e40-46d6-8147-430b6e6b69e3) | Purchased and paid on Fab **during the jam**, 2026-11-12 (confirmed by the owner; Fab Standard License) | Planned: tears on the MetaHuman actors in the duel and close-ups (installed and connected by the owner; no AI agent opens it: "Allows usage with AI: No"). | **Not yet in the project** |
 
 ## 3. Epic Games engine content
 
@@ -44,7 +44,7 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 
 ## To complete before submission
 
-- [ ] **Owner:** license tier and receipt date from the Fab Library for each purchased pack: SoerGame and Hivemind first, then Animaster Studio and Ezio Tears.
+- [ ] **Owner:** license tier and receipt date from the Fab Library for each purchased pack: SoerGame and Hivemind first, then Animaster Studio. (Ezio Tears: purchase date confirmed by the owner, 2026-11-12.)
 - [ ] Fab Library entitlement for HS_WeaponPack_03 (free).
 - [ ] Ezio Tears: test in PIE and in a packaged Windows build.
 - [ ] Saloon Interior (Quixel Megascans, pre-existing): verify the historical acquisition license and date in the owner's Library.

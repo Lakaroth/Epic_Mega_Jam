@@ -161,7 +161,7 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Status | **PRE-EXISTING third-party asset.** Acquired by the owner years before the jam (owner, 2026-11-12). Not made by the team. |
 | License | Owner's statement: previously acquired Quixel assets keep their original licensing rights. The exact historical acquisition license is **PENDING VERIFICATION** in the owner's Fab/Quixel Library. The current listing shows "Generated with AI: No" and "Allows usage with AI: Yes"; it shows no named license ("License terms: -"). |
 | Acquired | Before the jam (years earlier, owner). Exact date PENDING VERIFICATION (Library). |
-| Added to project | Not yet (2026-11-12). To be imported into the private jam project. |
+| Added to project | Yes, by the owner via Fab, present on 2026-11-12 (evening): folder `/Game/Scene_Saloon`, showcase map `Historic_Saloon`. Private jam project only. |
 | Pre-jam? | Yes: pre-existing third-party content, declared in the pre-jam summary below. |
 | Contents | From the listing: a modular saloon interior set of 73 assets (bar, bar stools, tables, vintage signs, decorations). FBX meshes with JPG textures (1K, 2K, 4K or 8K); a showcase scene for Unreal Engine 5.4-5.6. The listing gives no polygon counts. |
 | Planned use | The demo's saloon interior. |
@@ -174,9 +174,9 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 |---|---|
 | Creator | Ezz Eldin Medhat (Fab publisher, from the listing). The description is branded "Ezio Production Studio". |
 | Source | Fab Marketplace: https://www.fab.com/listings/a16ff48e-2e40-46d6-8147-430b6e6b69e3 |
-| Status | **PURCHASED** by the owner during the jam (owner, 2026-11-12 ~16:30 CET). |
-| License | Fab Standard License (owner's review, 2026-11-12): commercial use in a game and modification allowed. Exact tier and receipt date PENDING (Fab Library). The listing says "Generated with AI: No" and "Allows usage with AI: No". |
-| Acquired | 2026-11-12 ~16:30 CET, during the jam (exact time from the Fab receipt PENDING). |
+| Status | **PURCHASED AND PAID** by the owner on 2026-11-12, during the Epic AI MegaJam (**confirmed by the owner**, 2026-11-12). |
+| License | Fab Standard License (owner's review, 2026-11-12): commercial use in a game and modification allowed. Purchase date confirmed by the owner (2026-11-12); license tier to be re-checked in the Fab Library. The listing says "Generated with AI: No" and "Allows usage with AI: No". |
+| Acquired | 2026-11-12, during the jam: purchase and payment confirmed by the owner. Approximate time ~16:30 CET (exact time from the Fab receipt not recorded). |
 | Added to project | Not yet (2026-11-12). The owner installs it and connects it to Trevor by hand. |
 | Pre-jam? | No. It is a third-party asset bought during the jam. It was not created by the team. |
 | Contents | From the listing and the developer's guide (owner, 2026-11-12): a procedural crying system for MetaHuman characters (UE 5.8.4, MetaHuman 5.8, Win64; uses the ProceduralMeshComponent plugin). Tears form on the lower eyelids, run down the animated face and leave wet, reflective trails; simulation in Play and a cache for Sequencer. |
@@ -200,8 +200,8 @@ The jam page asks entrants to "Declare any prompts, scripts, or assets you made 
 | Tool setup: Ultimate Engine Copilot plugin and its MCP connection; a third-party Unreal Engine skills package for Claude Code | Set up before or at the jam start. | Tools only, allowed by the FAQ ("set up your tools, agents, and MCP ahead of time"). |
 | SoerGame Western Animations (Fab, purchased) | Purchase date PENDING (Fab receipt). | Third-party asset (§2). |
 | Animaster Studio Eating and Drinking Animation Pack (Fab, purchased) | Bought by the owner during the jam, 2026-11-12 ~14:05 CET. Not pre-jam; listed here so the submission declares it. | Third-party asset (§9). Not yet in the project. |
-| Saloon Interior — Quixel Megascans (Fab) | Acquired by the owner years before the jam. Exact acquisition date and license PENDING VERIFICATION (Library). | Pre-existing third-party asset (§11). Not yet in the project. |
-| Ezio Tears – Crying System (Fab, purchased) | Bought by the owner during the jam, 2026-11-12 ~16:30 CET. Not pre-jam; listed here so the submission declares it. | Third-party asset (§12). Not yet in the project. |
+| Saloon Interior — Quixel Megascans (Fab) | Acquired by the owner years before the jam. Exact acquisition date and license PENDING VERIFICATION (Library). | Pre-existing third-party asset (§11). In the project since 2026-11-12. |
+| Ezio Tears – Crying System (Fab, purchased) | Bought and paid by the owner during the jam, 2026-11-12 ~16:30 CET (confirmed by the owner). Not pre-jam; listed here so the submission declares it. | Third-party asset (§12). Not yet in the project. |
 | **Trevor "Angel Eyes" Ramsey** (hero MetaHuman) | Created by the owner on 2026-11-11, the day before the jam. Built with MetaHuman Creator and the owner's proprietary MetaWrap tool. Clothing (shirt, trousers) made by the owner; the hat was made with the Tripo AI tool (see AI_TOOLS.md). Hat-hair groom made by the owner. | Pre-jam owner work, imported into the jam project on 2026-11-12 (~11:20 CET, optimized version). Declared as pre-jam. |
 
 ---
