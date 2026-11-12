@@ -58,11 +58,12 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Field | Value |
 |---|---|
 | Creator | Epic Games |
-| Source | Free Epic sample project for Unreal Engine 5.8 (Motion Matching locomotion). |
+| Source | Free Epic sample project (Motion Matching locomotion). It was copied from the owner's local copy of the sample, installed before the jam (2026-01-14) and upgraded to UE 5.8. |
 | License | Epic sample content for use in Unreal Engine projects. Exact license wording UNVERIFIED. |
-| Use in game | Planned donor for Motion Matching: locomotion starts, stops, pivots, turn-in-place and the other clips the two packs above lack, plus the Pose Search setup. It is migrated into the jam project; we do not work inside the sample. |
-| Status | Migration NOT performed yet as of 2026-11-12 08:12 CET. |
-| Note | The migration must bring only Epic sample content. Unrelated pre-existing content from other owner projects must not be included. |
+| Use in game | Player locomotion: the sample's CMC character, animation blueprint, Motion Matching databases and choosers, traversal (small obstacles) and input, used as-is. Unused sets (e.g. sprint, crouch) will be pruned before the clean migration. |
+| Status | **Imported 2026-11-12 08:54 CET**: 1,263 packages (~1.25 GB), copied at their original paths with original timestamps. The exact file list is kept locally. |
+| Excluded on purpose | The owner's pre-jam personal content in that local project (a custom Mover-based character, the owner's own MetaHuman and outfits), and the sample's alternate display characters (Echo, Paragon, UE4/UE5 mannequins, sample MetaHumans), which are not needed. |
+| Note | 9 of the 1,263 copied files (UEFN mannequin materials, meshes, rig, textures) carry January 2026 modification dates later than the sample install, from the owner's pre-jam project. They are most likely engine re-saves during the 5.8 upgrade. Content changes are UNVERIFIED; declare if any owner edit is confirmed. |
 
 ## 5. Ultimate Horse System — Hivemind (Fab)
 
@@ -73,13 +74,29 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Status | **PURCHASED** by the owner on 2026-11-12, during the jam (owner-confirmed). |
 | License | PENDING OWNER REVIEW. Verify whether the purchased entitlement is Fab Standard Personal, Professional or another license. |
 | Acquired | 2026-11-12. Exact order date/time to be confirmed from the Fab receipt. |
-| Added to project | Not yet, as of 2026-11-12 08:15 CET. |
+| Added to project | 2026-11-12 ~08:24 CET (file timestamps in `/Game/UltimateHorsePack`). Content only, no code plugin. |
 | Pre-jam? | Third-party asset. It was not created by the team. |
 | Use in game | Planned: horse, riding, mount/dismount and the horse drinking at the trough. |
 | Compatibility | UE 5.8.4 support UNVERIFIED. Mount/dismount and rider alignment still need tests. |
 | Redistribution | Not redistributed. Vendor code and assets stay private; shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
 | Open questions | Record the license tier and receipt; confirm the supported engine versions. |
+
+## 6. Western weapon pack "HS_WeaponPack_03" (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | UNVERIFIED (to be read from the Fab listing). |
+| Source | Fab Marketplace: https://www.fab.com/listings/05c6741c-5233-4367-9c0d-67b49c8aa745 |
+| Status | **Free** (owner-confirmed, 2026-11-12). |
+| License | PENDING OWNER REVIEW. Record the license shown in the Fab Library. |
+| Acquired | 2026-11-12, during the jam. |
+| Added to project | 2026-11-12 ~08:53 CET (file timestamps in `/Game/HS_WeaponPack_03`). |
+| Contents | Revolvers (skeletal and static meshes), shoulder stock, powder flask, bullets, weapon holder board, materials and textures, demo map. |
+| Use in game | Planned: Trevor's and Donovan's revolvers, ammunition and props for the duel and target practice. |
+| Redistribution | Not redistributed. Shipped only inside the compiled game build. |
+| Submission declaration | To be declared as a third-party asset. Status: PENDING. |
+| Open questions | Creator name and license from the listing. |
 
 ---
 
