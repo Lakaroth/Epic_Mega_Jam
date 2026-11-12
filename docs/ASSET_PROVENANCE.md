@@ -61,7 +61,7 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Source | Free Epic sample project (Motion Matching locomotion). It was copied from the owner's local copy of the sample, installed before the jam (2026-01-14) and upgraded to UE 5.8. |
 | License | Epic sample content for use in Unreal Engine projects. Exact license wording UNVERIFIED. |
 | Use in game | Player locomotion: the sample's CMC character, animation blueprint, Motion Matching databases and choosers, traversal (small obstacles) and input, used as-is. Unused sets (e.g. sprint, crouch) will be pruned before the clean migration. |
-| Status | **Imported 2026-11-12 08:54 CET**: 1,263 packages (~1.25 GB), copied at their original paths with original timestamps. The exact file list is kept locally. |
+| Status | **Imported 2026-11-12 08:54 CET**: 1,263 packages (~1.25 GB), copied at their original paths with original timestamps. A further 167 packages (34 MB: foley sounds, aim offsets, a few locomotion clips) that the first dependency scan had missed were added at 09:42 CET, for **1,430 packages** in total. The exact file list is kept locally. |
 | Excluded on purpose | The owner's pre-jam personal content in that local project (a custom Mover-based character, the owner's own MetaHuman and outfits), and the sample's alternate display characters (Echo, Paragon, UE4/UE5 mannequins, sample MetaHumans), which are not needed. |
 | Note | 9 of the 1,263 copied files (UEFN mannequin materials, meshes, rig, textures) carry January 2026 modification dates later than the sample install, from the owner's pre-jam project. They are most likely engine re-saves during the 5.8 upgrade. Content changes are UNVERIFIED; declare if any owner edit is confirmed. |
 
