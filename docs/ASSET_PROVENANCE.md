@@ -168,6 +168,24 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Redistribution | Not redistributed. The source assets are not published; they ship only inside the compiled game build. |
 | Submission declaration | To be declared as a pre-existing third-party asset. Status: PENDING. |
 
+## 12. Ezio Tears – Crying System (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | Ezz Eldin Medhat (Fab publisher, from the listing). The description is branded "Ezio Production Studio". |
+| Source | Fab Marketplace: https://www.fab.com/listings/a16ff48e-2e40-46d6-8147-430b6e6b69e3 |
+| Status | **PURCHASED** by the owner during the jam (owner, 2026-11-12 ~16:30 CET). |
+| License | Fab Standard License (owner's review, 2026-11-12): commercial use in a game and modification allowed. Exact tier and receipt date PENDING (Fab Library). The listing says "Generated with AI: No" and "Allows usage with AI: No". |
+| Acquired | 2026-11-12 ~16:30 CET, during the jam (exact time from the Fab receipt PENDING). |
+| Added to project | Not yet (2026-11-12). The owner installs it and connects it to Trevor by hand. |
+| Pre-jam? | No. It is a third-party asset bought during the jam. It was not created by the team. |
+| Contents | From the listing and the developer's guide (owner, 2026-11-12): a procedural crying system for MetaHuman characters (UE 5.8.4, MetaHuman 5.8, Win64; uses the ProceduralMeshComponent plugin). Tears form on the lower eyelids, run down the animated face and leave wet, reflective trails; simulation in Play and a cache for Sequencer. |
+| Planned use | Tears on the MetaHuman actors in the duel and close-ups. |
+| "Allows usage with AI: No" | A restriction on using the content as input to generative AI, separate from the commercial license. Project rule: **no AI agent opens, reads, analyses or rewrites this pack's files or source.** The owner installs, connects and edits it by hand; our code may only call its documented public functions. Our sweat effect is a separate system written during the jam, not derived from this pack. |
+| Build check | To test in PIE and in a packaged Windows build. |
+| Redistribution | Not redistributed. Shipped only inside the compiled game build. |
+| Submission declaration | To be declared as a third-party asset. Status: PENDING. |
+
 ---
 
 ## Pre-jam items to declare (summary)
@@ -183,6 +201,7 @@ The jam page asks entrants to "Declare any prompts, scripts, or assets you made 
 | SoerGame Western Animations (Fab, purchased) | Purchase date PENDING (Fab receipt). | Third-party asset (§2). |
 | Animaster Studio Eating and Drinking Animation Pack (Fab, purchased) | Bought by the owner during the jam, 2026-11-12 ~14:05 CET. Not pre-jam; listed here so the submission declares it. | Third-party asset (§9). Not yet in the project. |
 | Saloon Interior — Quixel Megascans (Fab) | Acquired by the owner years before the jam. Exact acquisition date and license PENDING VERIFICATION (Library). | Pre-existing third-party asset (§11). Not yet in the project. |
+| Ezio Tears – Crying System (Fab, purchased) | Bought by the owner during the jam, 2026-11-12 ~16:30 CET. Not pre-jam; listed here so the submission declares it. | Third-party asset (§12). Not yet in the project. |
 | **Trevor "Angel Eyes" Ramsey** (hero MetaHuman) | Created by the owner on 2026-11-11, the day before the jam. Built with MetaHuman Creator and the owner's proprietary MetaWrap tool. Clothing (shirt, trousers) made by the owner; the hat was made with the Tripo AI tool (see AI_TOOLS.md). Hat-hair groom made by the owner. | Pre-jam owner work, imported into the jam project on 2026-11-12 (~11:20 CET, optimized version). Declared as pre-jam. |
 
 ---
