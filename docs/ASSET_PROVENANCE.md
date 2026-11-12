@@ -83,6 +83,14 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 
 ---
 
+## Pre-jam owner work used as reference only
+
+| Item | Created | How it is used | Copied into the jam project? |
+|---|---|---|---|
+| Owner's fixed-camera prototype (UE 5.7, Blueprint, separate personal project) | Before the jam (January 2026) | Design reference for the fixed-camera behaviour: trigger-based camera switching and soft tracking. | **No.** No assets or code were copied. The jam camera system was written from scratch in C++ on 2026-11-12 (see TECHNICAL_DECISIONS TD-007). Declare as pre-jam design reference. |
+
+---
+
 ## Development-only tools (NOT distributed)
 
 | Tool | Creator / source | License | How it is used | Distributed in the game? |

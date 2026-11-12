@@ -23,6 +23,12 @@ The jam started at 06:00 CET (00:00 ET).
 | ~08:10 | Owner | **Decision:** keep Motion Matching. Take starts, turns and the missing locomotion clips from Epic's Game Animation Sample. See [TECHNICAL_DECISIONS.md](TECHNICAL_DECISIONS.md). | DONE |
 | ~08:11 | Owner | Purchased **Ultimate Horse System — Hivemind** (Fab) for the horse. It is not yet added to the project. | DONE |
 | 08:12 | Claude Code | First public documentation: README, AGENTS.md, asset provenance (submission declaration list), AI tools, technical decisions, this log. | DONE |
+| ~08:15 | Owner | Fab listing URLs and purchase status recorded for the three third-party packs. **Decision:** the current project is an experimental sandbox; once the build works, only the assets actually used are migrated into a clean project (TD-006). | DONE |
+| 08:17 | Owner | Created the project folder root (`_Game`) and the **DebugRoom** test level, set as the editor and game default map. | DONE |
+| ~08:25 | Claude Code | Wrote the first gameplay C++: player character (walk/jog, limited turn rate, camera-relative movement with "sticky" input across camera cuts), placed cinematic camera shots, the Director that decides which shot is live, player controller and game mode (TD-007). | DONE |
+| 08:28–08:31 | Owner + Claude Code | Owner closed the editor; Claude Code built the editor target with UnrealBuildTool (succeeded) and committed the source to the private local repository. | DONE |
+| 08:33–08:37 | Claude Code | Through the Copilot MCP server: created the input assets (gamepad + keyboard), the Blueprint subclasses (UE5 Manny placeholder), and three test camera shots in DebugRoom. Play-in-Editor test with injected input: walk follows the live camera; holding the stick through a camera cut keeps the previous direction; a new press adopts the new camera; jog reaches 340 cm/s. No errors from project code in the log. | TESTED (automated input) |
+| — | Owner | Hands-on test with a physical gamepad. | PLANNED |
 
 ### Next
 - **PLANNED:** migrate the needed Game Animation Sample content (Epic) into the jam project.
