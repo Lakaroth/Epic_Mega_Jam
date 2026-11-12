@@ -68,3 +68,11 @@ Each entry gives the decision, the date and time (CET), the reason, and the alte
 - **When:** 2026-11-12, ~11:55 CET.
 - **Decision:** Points of interest are level actors with a range sphere visible in the editor. A component on the character picks the point to look at and computes a smoothed head turn within human neck limits. The hero's anim blueprint (a C++ anim instance) spreads that turn over neck_01, neck_02 and head after the retarget.
 - **Why:** Values can be tuned in the editor (range, priority, limits, speed). It works with any MetaHuman, does not change the sample's animation blueprint, and the animation owns the head during traversal.
+
+## TD-012 — Props are never ground for the character
+- **When:** 2026-11-12, ~13:45 CET.
+- **Decision:** Every prop mesh ignores the Visibility trace channel and its surfaces are unwalkable. It still blocks the character's capsule, the camera and everything else. The setting lives on the mesh asset, so every placed copy inherits it; the prop script applies it on import.
+- **Why:** The sample's foot placement and its motion-matching trajectory both trace down on the Visibility channel. A prop that answered those traces read as a raised floor: near a table or chair the hero's legs tried to climb it. The owner's rule: the hero must not climb props.
+- **Consequences:**
+  - Props do not block the Visibility line-of-sight check of points of interest.
+  - Anything the hero must stand on or vault (floors, steps, vaultable crates and walls) is level geometry, not a prop, and keeps blocking Visibility.
