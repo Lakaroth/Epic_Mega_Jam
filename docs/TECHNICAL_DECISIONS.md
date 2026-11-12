@@ -51,3 +51,20 @@ Each entry gives the decision, the date and time (CET), the reason, and the alte
   - Do not ship the sample's alternate display characters.
   - Budget the MetaHumans (LODs, grooms, texture sizes), the horse and the environment.
   - Measure the packaged size at every packaged build, starting with the first one.
+
+## TD-009 — Game Animation Sample 5.8, unmodified download
+- **When:** 2026-11-12, ~10:20 CET.
+- **Decision:** The sample content in the project is Epic's unmodified 5.8 download. The first import, taken from the owner's older local copy of the sample, was removed and replaced.
+- **Why:** The 5.8 version has newer traversal and locomotion data, and an unmodified source gives a clean provenance. Our changes are made inside the jam project and logged.
+- **Alternative rejected:** keeping the first import and patching it.
+
+## TD-010 — Hero MetaHuman as a visual on the sample character
+- **When:** 2026-11-12, ~11:10 CET.
+- **Decision:** Movement stays on the sample's mannequin character, which is hidden. The MetaHuman hero is attached as its visual and copies its pose every frame through the sample's runtime retarget (mannequin to MetaHuman).
+- **Why:** The Motion Matching data, traversal and foot placement keep working exactly as tested, and any MetaHuman can be swapped in without retargeting the animation library.
+- **Consequences:** The hero is kept at full detail, animates even off-screen (fixed cameras cut while it is out of frame), and updates after the mannequin it copies from.
+
+## TD-011 — Head attention: C++ component plus anim instance
+- **When:** 2026-11-12, ~11:55 CET.
+- **Decision:** Points of interest are level actors with a range sphere visible in the editor. A component on the character picks the point to look at and computes a smoothed head turn within human neck limits. The hero's anim blueprint (a C++ anim instance) spreads that turn over neck_01, neck_02 and head after the retarget.
+- **Why:** Values can be tuned in the editor (range, priority, limits, speed). It works with any MetaHuman, does not change the sample's animation blueprint, and the animation owns the head during traversal.

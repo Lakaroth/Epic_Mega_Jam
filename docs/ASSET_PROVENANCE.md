@@ -21,7 +21,7 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Added to project | 2026-11-12 ~08:07 CET (file timestamps in `/Game/SampleAnimationPack`) |
 | Pre-jam? | Third-party asset. It was not created by the team. |
 | Contents used | 24 motion-capture sequences at 120 fps on the UE5 Mannequin skeleton: 12 male unarmed clips (idle, gesture, 4-direction walk loops, 90° turn-in-place, injured idle/walk, walk transitions), 12 female rifle walk/aim clips and 2 door-kick clips. The pack also ships demo content with the UE5 Manny/Quinn mannequins and the Third Person template animation blueprint (Epic content). |
-| Use in game | Planned: third-party locomotion animations added to the player's Motion Matching database (together with Game Animation Sample data, see §4), on Manny first and later retargeted to MetaHumans. Nothing is integrated yet as of 2026-11-12 08:12 CET. |
+| Use in game | **Not used in the game** as of 2026-11-12 12:45 CET. A test (12:20–12:40 CET) retargeted its 4 male unarmed walk loops to the sample's UEFN mannequin skeleton and added them to the walk Motion Matching database for a slower walk. The owner rejected the result, and everything from that test was removed (clips, retargeter, database entries, speed changes). |
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
 | Open questions | Record the Fab Library entitlement evidence. |
@@ -58,13 +58,13 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Field | Value |
 |---|---|
 | Creator | Epic Games |
-| Source | Free Epic sample project (Motion Matching locomotion). It was copied from the owner's local copy of the sample, installed before the jam (2026-01-14) and upgraded to UE 5.8. |
+| Source | Free Epic sample project (Motion Matching locomotion), **version 5.8, unmodified**, copied from the Epic Games Launcher download cache on the owner's machine (the launcher refreshed it on 2026-11-12 at 10:16 CET, when the owner created a new 5.8 sample project). |
 | License | Epic sample content for use in Unreal Engine projects. Exact license wording UNVERIFIED. |
-| Use in game | Player locomotion: the sample's CMC character, animation blueprint, Motion Matching databases and choosers, traversal (small obstacles) and input, used as-is. Unused sets (e.g. sprint, crouch) will be pruned before the clean migration. |
-| Status | **Imported 2026-11-12 08:54 CET**: 1,263 packages (~1.25 GB), copied at their original paths with original timestamps. A further 167 packages (34 MB: foley sounds, aim offsets, a few locomotion clips) that the first dependency scan had missed were added at 09:42 CET, for **1,430 packages** in total. The exact file list is kept locally. |
-| Excluded on purpose | The owner's pre-jam personal content in that local project (a custom Mover-based character, the owner's own MetaHuman and outfits), and the sample's alternate display characters (Echo, Paragon, UE4/UE5 mannequins, sample MetaHumans), which are not needed. |
-| MetaHuman support | 2026-11-12 ~11:08 CET: the sample's generic runtime retarget (mannequin to MetaHuman), the shared MetaHuman files and Epic's sample MetaHuman "Kellan" (used only to test the pipeline) were imported from the same Epic sample. |
-| Note | 9 of the 1,263 copied files (UEFN mannequin materials, meshes, rig, textures) carry January 2026 modification dates later than the sample install, from the owner's pre-jam project. They are most likely engine re-saves during the 5.8 upgrade. Content changes are UNVERIFIED; declare if any owner edit is confirmed. |
+| Use in game | Player locomotion: the sample's CMC character, animation blueprint, Motion Matching databases and choosers, traversal (small obstacles) and input. Our changes are listed in the development log (walk as the default, no jump, speeds, no sprint, traversal picks without the spinning hurdle variants, input bindings). Unused sets (e.g. sprint, crouch) will be pruned before the clean migration. |
+| Status | **Current content imported 2026-11-12 ~10:20 CET**: 1,417 packages (~1.24 GB) from the unmodified 5.8 download, at their original paths, plus 366 packages at ~11:08 CET for MetaHuman support (below). The exact file lists are kept locally. |
+| Earlier import (replaced) | From 08:54 to ~10:20 CET the project used a first import (1,430 packages) taken from the owner's older local copy of the same sample. At ~10:20 it was removed from the project and replaced by the unmodified 5.8 download above; it is kept only as an offline backup outside the project. A disk check at 12:33 CET found no leftover file from that first import. |
+| Excluded on purpose | The sample's alternate display characters (Echo, Paragon, UE4/UE5 mannequins), its sample game mode and physics obstacle props, which are not needed. |
+| MetaHuman support | 2026-11-12 ~11:08 CET: the sample's generic runtime retarget (mannequin to MetaHuman), the shared MetaHuman files and Epic's sample MetaHuman "Kellan" (used only to test the pipeline) were imported from the same unmodified 5.8 download. |
 
 ## 5. Ultimate Horse System — Hivemind (Fab)
 
@@ -107,7 +107,7 @@ The jam page asks entrants to "Declare any prompts, scripts, or assets you made 
 
 | Item | Made / obtained | Status in the game |
 |---|---|---|
-| Game Animation Sample content (Epic) | Installed in the owner's local sample project on 2026-01-14 and upgraded to UE 5.8 before the jam. Imported into the jam project on 2026-11-12. | Third-party (Epic) locomotion content, used as-is. 9 files carry pre-jam re-save dates (see §4). |
+| Game Animation Sample content (Epic) | Third-party Epic content, not made by the owner. The copy in the project is the unmodified 5.8 download (see §4). An earlier import from the owner's older local copy of the sample was used from 08:54 to ~10:20 CET on 2026-11-12 and then replaced. | Used as-is with the changes listed in the development log. |
 | Owner's fixed-camera prototype (Blueprint) | January 2026 | Design reference only. The logic is re-implemented in C++ during the jam; no assets copied. |
 | Agent rulebook ([AGENTS.md](../AGENTS.md)) | Written by the owner; creation date PENDING OWNER CONFIRMATION (local file saved 2026-11-12 07:38 CET). | Prompt/instructions for the agents, not game content. |
 | Copilot plugin agent guide (private text file) | Written by the owner in August 2026. | Prompt/tooling instructions, not game content. Not published (it covers other private projects). |
