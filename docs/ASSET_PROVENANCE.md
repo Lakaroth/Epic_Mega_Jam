@@ -110,7 +110,7 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Added to project | 2026-11-12 ~12:33 CET (`/Game/QS_MM_Sample`). |
 | Pre-jam? | Third-party asset. It was not created by the team. |
 | Contents | One 42 s motion-capture walk take (forward walk with left and right turns of 45°, 90°, 135° and 180°) for the UE5 Mannequin and MetaHuman skeletons, demo meshes, a demo map and a sequence. |
-| Use in game | **UNDER EVALUATION** (owner A/B test from 12:55 CET). The take was retargeted to the Game Animation Sample's mannequin skeleton and its root motion was built from the pelvis path; it can replace the sample's walk loops and walk turns at runtime. Declared and credited only if kept. |
+| Use in game | **Not used in the game** as of 2026-11-12 13:10 CET. An owner A/B test (12:55–13:10 CET) retargeted the take to the Game Animation Sample's mannequin skeleton and swapped it in for the sample's walk; the owner rejected it, and every asset made for the test was removed. The pack itself is still in the private sandbox project and will not be migrated unless used. |
 | Credit | If used: credit **Quantum Stage / Mocap ATLAS** in the game and in the submission, and note the creator's email confirmation. |
 | Redistribution | Not redistributed. No source files in this repository. |
 

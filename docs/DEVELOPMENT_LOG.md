@@ -55,9 +55,10 @@ The jam started at 06:00 CET (00:00 ET).
 | 12:42 | Claude Code | Restore point taken before the next changes: a full copy of the project content, config and source (7.8 GB) and a tag in the private repository. | DONE |
 | 12:45–12:52 | Claude Code | Run moved to the traversal button at the owner's request (the L3 toggle felt unnatural): hold Cross/A (Space or Left Shift on keyboard) to run, release to walk; pressing it at an obstacle still vaults. L3 freed. Applied with Live Coding (a full build follows at the next editor restart). | TESTED (run 375 cm/s while held, walk 165 after release; vault over the 50 cm block with Cross) |
 | 12:45–12:55 | Claude Code | A/B test for the owner: the **B** key switches the walk between the sample's walk animations (A) and a Quantum Stage motion-matching walk take (B, see [ASSET_PROVENANCE.md](ASSET_PROVENANCE.md) §7). The take was retargeted to the sample's skeleton, its root motion built from the pelvis path, and put in its own database; in B the sample animation blueprint swaps the walk loop and walk pivot databases for it at search time. Starts, stops, idles, run and traversal are unchanged. Walk speed in B: 130 cm/s (the take's cruising speed). | TESTED (B: Quantum Stage database selected at 130 cm/s; A: 165 cm/s). Owner review pending |
+| 13:00–13:10 | Owner + Claude Code | Owner test of B: the legs did not move. Cause: the retarget left the IK foot bones still, and the sample's leg IK uses them; fixed by copying the feet into them. Owner's verdict on the fixed B: rejected. **Reverted to the official sample walk**: the animation blueprint swap, the B key and the Quantum Stage test assets (retargeted clip, database, normalization set, retargeter) were removed. Hold-to-run on Cross/A kept. | REVERTED (verified in Play: sample walk 165 cm/s, run 375 cm/s) |
 
 ### Next
 - **PLANNED:** duel vertical slice (cameras, timing bar, draw, fire). This is the Day 1 target.
-- **PENDING OWNER REVIEW:** A/B walk test (keep the sample walk or the Quantum Stage walk), blockout cameras; then the camera-switch buttons.
+- **PENDING OWNER REVIEW:** blockout cameras; then the camera-switch buttons.
 - **OPEN:** a slower run needs a slow jog animation; none of the current packs has one.
 - **PENDING OWNER REVIEW:** read the Official Rules.
