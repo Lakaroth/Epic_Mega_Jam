@@ -1,0 +1,106 @@
+# Public documentation repository for Director's Cut (2026 Epic AI MegaJam).
+# Only text documentation belongs here. The Unreal project stays private and local.
+# Note: .gitignore is a safety net, not a security boundary. Stage files explicitly.
+
+# --- Unreal project data (never publish) ---
+Content/
+Plugins/
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+Builds/
+StagedBuilds/
+Packaged/
+Source/
+Config/
+.vs/
+*.uproject
+*.uplugin
+*.sln
+*.slnx
+*.uasset
+*.umap
+*.pak
+*.ucas
+*.utoc
+
+# --- 3D / source art / archives ---
+*.fbx
+*.obj
+*.blend
+*.blend1
+*.usd
+*.usda
+*.usdc
+*.usdz
+*.abc
+*.glb
+*.gltf
+*.ztl
+*.zpr
+*.spp
+*.sbsar
+*.psd
+*.exr
+*.hdr
+*.tga
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# --- Binaries, compiled modules, model weights ---
+*.exe
+*.dll
+*.pdb
+*.lib
+*.so
+*.pyd
+*.pyc
+__pycache__/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.npz
+*.pkl
+
+# --- Media binaries (publish only owner-approved links/exports) ---
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# --- Secrets, credentials, local configs ---
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*token*
+*secret*
+*credential*
+session_token*
+.mcp.json
+.claude/
+settings.local.json
+
+# --- Caches, temp files, logs ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+Thumbs.db
+.DS_Store
+desktop.ini
