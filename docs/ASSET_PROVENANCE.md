@@ -1,10 +1,11 @@
 # Asset Provenance — Director's Cut (2026 Epic AI MegaJam)
 
 This is a record of every third-party and pre-existing component used in the private Unreal project.
-**It is the list of items to declare in the jam submission.**
-Only text is published here. No asset files are redistributed through this repository.
+**It is the list of items to declare in the jam submission.** The final declaration covers the assets actually used in the submitted build. It will be cross-checked against the clean migration of the final maps.
+Only text is published here. Source assets, Blueprints, animations, plugins and packaged third-party project files are **never** published in this repository.
 
 Status legend: **VERIFIED** (evidence on file) · **PENDING OWNER REVIEW** · **UNVERIFIED**.
+Exact license evidence (Fab Library entitlement / receipt) must be recorded for each asset before final submission.
 
 ---
 
@@ -13,8 +14,9 @@ Status legend: **VERIFIED** (evidence on file) · **PENDING OWNER REVIEW** · **
 | Field | Value |
 |---|---|
 | Creator | Gamma Studio (owner-confirmed, 2026-11-12) |
-| Source | Fab Marketplace. Listing URL to be added. |
-| License | Fab Standard License (owner-confirmed, 2026-11-12). The listing also states it is free to use in commercial projects. |
+| Source | Fab Marketplace: https://www.fab.com/listings/8de31c5d-93bc-4bd4-9606-ca789ce91b99 |
+| Status | Free (claimed on Fab). |
+| License | Fab Standard License; commercial use permitted (owner-confirmed, 2026-11-12). Fab Library entitlement evidence to be recorded before final submission. |
 | Acquired | PENDING OWNER REVIEW (date the pack was added to the owner's Fab library) |
 | Added to project | 2026-11-12 ~08:07 CET (file timestamps in `/Game/SampleAnimationPack`) |
 | Pre-jam? | Third-party asset. It was not created by the team. |
@@ -22,23 +24,24 @@ Status legend: **VERIFIED** (evidence on file) · **PENDING OWNER REVIEW** · **
 | Use in game | Planned: third-party locomotion animations added to the player's Motion Matching database (together with Game Animation Sample data, see §4), on Manny first and later retargeted to MetaHumans. Nothing is integrated yet as of 2026-11-12 08:12 CET. |
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
-| Open questions | Add the listing URL. |
+| Open questions | Record the Fab Library entitlement evidence. |
 
 ## 2. Western Animations — SoerGame (Fab)
 
 | Field | Value |
 |---|---|
 | Creator | SoerGame (Fab publisher, owner-confirmed 2026-11-12) |
-| Source | Fab Marketplace, listing "Western Animations" (category: Animations). Listing URL to be added. |
-| License | PENDING OWNER REVIEW. Owner to confirm the license type (expected Fab Standard License) and whether the pack was purchased or free. |
-| Acquired | PENDING OWNER REVIEW |
+| Source | Fab Marketplace: https://www.fab.com/listings/6ff33fd3-f834-41f6-bf97-a0df10372304 |
+| Status | **PURCHASED** by the owner (owner-confirmed, 2026-11-12). |
+| License | PENDING OWNER REVIEW. Verify the purchased license tier in the Fab Library. |
+| Acquired | Purchase date PENDING (from the Fab receipt). |
 | Added to project | 2026-11-12 ~08:09 CET (file timestamps in `/Game/WesternAnimations`) |
 | Pre-jam? | Third-party asset. It was not created by the team. |
 | Contents used | 52 western animation sequences: quick-draw shots, duel deaths, hand-near-holster idles, revolver fanning, spin and reload, horseback riding and shooting, saloon/bartender/table idles, hat gestures. The pack also ships demo mannequin content: Manny/Quinn and locomotion, pistol, rifle, death and hit-react animations. These appear to be Epic UE5 template content (UNVERIFIED). |
 | Use in game | Duel (holster idle, quick draw, fire, death), saloon NPC idles, horse riding placeholder. |
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
-| Open questions | Add the listing URL, the license type and the purchase or claim date. |
+| Open questions | Record the license tier and the purchase date from the Fab Library/receipt. |
 
 ## 3. Epic Games content (UE5 Mannequin, template content)
 
@@ -66,16 +69,17 @@ Status legend: **VERIFIED** (evidence on file) · **PENDING OWNER REVIEW** · **
 | Field | Value |
 |---|---|
 | Creator | Hivemind (Fab publisher, owner-confirmed 2026-11-12) |
-| Source | Fab Marketplace, listing "Ultimate Horse System (Horse, Horse Riding, Horse System, Mount, Rideable Horse)" (category: Game Systems / Gameplay Features). Listing URL to be added. |
-| License | PENDING OWNER REVIEW (expected Fab Standard License; to confirm on the listing or receipt). |
-| Acquired | Purchased by the owner on 2026-11-12, during the jam. Order date to be confirmed from the Fab receipt. |
-| Added to project | Not yet, as of 2026-11-12 08:12 CET. |
+| Source | Fab Marketplace: https://www.fab.com/listings/0f1d9f24-9f5a-42dd-8934-5d6dbf1bc002 ("Ultimate Horse System (Horse, Horse Riding, Horse System, Mount, Rideable Horse)", category: Game Systems / Gameplay Features) |
+| Status | **PURCHASED** by the owner on 2026-11-12, during the jam (owner-confirmed). |
+| License | PENDING OWNER REVIEW. Verify whether the purchased entitlement is Fab Standard Personal, Professional or another license. |
+| Acquired | 2026-11-12. Exact order date/time to be confirmed from the Fab receipt. |
+| Added to project | Not yet, as of 2026-11-12 08:15 CET. |
 | Pre-jam? | Third-party asset. It was not created by the team. |
 | Use in game | Planned: horse, riding, mount/dismount and the horse drinking at the trough. |
 | Compatibility | UE 5.8.4 support UNVERIFIED. Mount/dismount and rider alignment still need tests. |
 | Redistribution | Not redistributed. Vendor code and assets stay private; shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
-| Open questions | Add the listing URL, the license type, the receipt date and the supported engine versions. |
+| Open questions | Record the license tier and receipt; confirm the supported engine versions. |
 
 ---
 
