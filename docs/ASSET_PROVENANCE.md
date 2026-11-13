@@ -327,6 +327,7 @@ The project's `Content/` folder (binary assets) is not in version control. To sh
 | Snapshot | Files | Size | Manifest SHA-256 | Private commit |
 |---|---|---|---|---|
 | 2026-11-13 07:56 CET | 4702 | 16.36 GB | `8c06dece711a313c61dc87708227063913f6429e08107255858633dd5fc9b5cc` | 6c4b4b8 |
+| 2026-11-13 20:54 CET | 4922 | 17.25 GB | `28f6b4432709ba0c669ef1fffa680e24be37d5fd09af4a0609dbcde7ab71ac26` | 60a28ca |
 
 ---
 
