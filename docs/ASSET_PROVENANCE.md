@@ -283,6 +283,28 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Pre-jam? | No. Third-party assets obtained during the jam. Sourced assets: noted, not scored (§15(c)). |
 | Redistribution | Embedded in the compiled game build only. **To do for the build:** add the three `OFL.txt` files (copyright and license) to the build's third-party notices. |
 
+## 20. "Revolver Loading - Remington 1875" by Guy_Personface (Freesound, CC0)
+
+| Field | Value |
+|---|---|
+| Creator | Guy_Personface (Freesound user). |
+| Source | https://freesound.org/people/Guy_Personface/sounds/795317/ (read 2026-11-13). Unedited 32-bit recording, 7.6 s, stereo, 48 kHz, uploaded 2025-03-24. |
+| License | **Creative Commons 0** (public domain dedication): commercial use allowed, no attribution required. Credited anyway in the third-party list. |
+| Use in game | Two short cuts, normalized and made mono (the 3 MB original is not in the project): a round going into the cylinder (`SW_Reload_Round`, 0.28 s) and the light clicks of the gate (`SW_Reload_Gate`, 0.40 s), for the revolver reload. Chosen by the owner on 2026-11-13. |
+| Pre-jam? | No. Third-party asset obtained during the jam (2026-11-13). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 21. "revolvercock1.wav" by Dredile (Freesound, CC0)
+
+| Field | Value |
+|---|---|
+| Creator | Dredile (Freesound user). |
+| Source | https://freesound.org/people/Dredile/sounds/111676/ (read 2026-11-13). "Cocking an old revolver." 0.67 s, mono, 44.1 kHz, uploaded 2011-01-07. |
+| License | **Creative Commons 0** (public domain dedication): commercial use allowed, no attribution required. Credited anyway in the third-party list. |
+| Use in game | The hammer being cocked (`SW_Revolver_HammerCock`, silence trimmed, 0.38 s). Chosen by the owner on 2026-11-13 to replace the earlier cock sound. |
+| Pre-jam? | No. Third-party asset obtained during the jam (2026-11-13). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
 ---
 
 ## Content snapshots (made-during-the-jam evidence)
