@@ -78,7 +78,7 @@ Exact license evidence (Fab Library entitlement / receipt) must be recorded for 
 | Acquired | 2026-11-12. Exact order date/time to be confirmed from the Fab receipt. |
 | Added to project | 2026-11-12 ~08:24 CET (file timestamps in `/Game/UltimateHorsePack`). Content only, no code plugin. |
 | Pre-jam? | Third-party asset. It was not created by the team. |
-| Use in game | Planned: horse, riding, mount/dismount and the horse drinking at the trough. |
+| Use in game | Planned: horse, riding, mount/dismount and the horse drinking at the trough. Since 2026-11-13: the opening scene (the pack's realistic horse, western saddle, horse idle and rider mount idle), being blocked out. |
 | Compatibility | UE 5.8.4 support UNVERIFIED. Mount/dismount and rider alignment still need tests. |
 | Redistribution | Not redistributed. Vendor code and assets stay private; shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
@@ -271,6 +271,17 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Use in game | The camera-change click (D-pad camera cuts), `/Game/_Game/_Audio/UI/SW_UI_CameraCut`. Chosen by the owner on 2026-11-13. |
 | Pre-jam? | No. Third-party asset obtained during the jam. Sourced asset: noted, not scored (§15(c)). |
 | Redistribution | Shipped only inside the compiled game build. |
+
+## 19. Typefaces: IM Fell English SC, EB Garamond, Courier Prime (SIL Open Font License)
+
+| Field | Value |
+|---|---|
+| Fonts and authors | **IM Fell English SC**: Copyright (c) 2010, Igino Marini. **EB Garamond**: Copyright 2017 The EB Garamond Project Authors (Georg Duffner, Octavio Pardo). **Courier Prime**: Copyright 2015 The Courier Prime Project Authors (Quote-Unquote Apps). |
+| Source | Google Fonts repository on GitHub (`google/fonts`, folders `ofl/imfellenglishsc`, `ofl/ebgaramond`, `ofl/courierprime`), downloaded during the jam on 2026-11-13 (~12:47 CET), each with its `OFL.txt`. |
+| License | **SIL Open Font License 1.1**: free to use, embed and bundle with software, including commercial software. The copyright notice and the license text must ship with the fonts; the fonts may not be sold on their own; a modified font may not use a Reserved Font Name. The fonts are not modified. |
+| Use in game | HUD and UI type, chosen by the owner on 2026-11-13: IM Fell English SC for titles and labels (in use: the "Camera Cuts" label), EB Garamond for body text and subtitles, Courier Prime for small technical text (both imported, planned for the menus and subtitles). Assets in `/Game/_Game/_UI/Fonts`. |
+| Pre-jam? | No. Third-party assets obtained during the jam. Sourced assets: noted, not scored (§15(c)). |
+| Redistribution | Embedded in the compiled game build only. **To do for the build:** add the three `OFL.txt` files (copyright and license) to the build's third-party notices. |
 
 ---
 

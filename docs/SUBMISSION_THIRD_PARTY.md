@@ -1,7 +1,7 @@
 # Third-party animations and Fab packs — submission declaration
 
 **Game:** Director's Cut (2026 Epic AI MegaJam), by Elvis Morelli (Lakaroth).
-**Status as of:** 2026-11-12, 17:40 CET. The final version must match the submitted build: only packs that ship in the build stay in the list.
+**Status as of:** 2026-11-13, 16:00 CET. The final version must match the submitted build: only packs that ship in the build stay in the list.
 
 None of the content below was made by the entrant. Each pack is used under the license from its source and ships only inside the compiled game. No source files are redistributed: the public repository holds text documentation only.
 
@@ -21,13 +21,14 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 
 | Pack | Creator | Source | How obtained | Use in the game | Status |
 |---|---|---|---|---|---|
-| Ultimate Horse System | Hivemind | [Fab listing](https://www.fab.com/listings/0f1d9f24-9f5a-42dd-8934-5d6dbf1bc002) | Purchased on Fab **during the jam**, 2026-11-12 | Planned: the horse, riding, mount and dismount, the horse drinking at the trough. | In the project, **not yet in gameplay** |
+| Ultimate Horse System | Hivemind | [Fab listing](https://www.fab.com/listings/0f1d9f24-9f5a-42dd-8934-5d6dbf1bc002) | Purchased on Fab **during the jam**, 2026-11-12 | The horse of the opening scene (realistic horse, western saddle, idle and rider mount idle); planned: riding, mount and dismount, the horse drinking at the trough. | In the project; opening scene being blocked out (2026-11-13) |
 | HS_WeaponPack_03 (western weapons) | PENDING (to be read from the listing) | [Fab listing](https://www.fab.com/listings/05c6741c-5233-4367-9c0d-67b49c8aa745) | Free on Fab, added **during the jam**, 2026-11-12 | Planned: revolvers, ammunition and weapon props for the duel and target practice. | In the project, **not yet in gameplay** |
 | Saloon Interior | Quixel Megascans | [Fab listing](https://www.fab.com/listings/57991a62-f98f-4c6a-9b94-a74ec12f242e) | Acquired by the owner **before the jam** (pre-existing; license PENDING VERIFICATION) | Planned: the demo's saloon interior (bar, stools, tables, signs, decorations). | In the project (2026-11-12), **not yet in gameplay** |
 | Ezio Tears – Crying System | Ezz Eldin Medhat | [Fab listing](https://www.fab.com/listings/a16ff48e-2e40-46d6-8147-430b6e6b69e3) | Purchased and paid on Fab **during the jam**, 2026-11-12 (confirmed by the owner; Fab Standard License) | Planned: tears on the MetaHuman actors in the duel and close-ups (installed and connected by the owner; no AI agent opens it: "Allows usage with AI: No"). | **Not yet in the project** |
 | Casual Shirt – MetaHuman Clothes – Parametric Outfit | Cindy | [Fab listing](https://www.fab.com/listings/006666c2-ba60-43e6-a61a-7398a44f33c1) | Bought on Fab **during the jam** (owner's decision 2026-11-13; receipt date PENDING) | Planned: the new Trevor's shirt (fitted by the owner in MetaHuman Creator; no AI agent opens it: "Allows usage with AI: No"). | **Not yet in the project** |
 | Dirty and Muddy Terrain Pack | 32cm | [Fab listing](https://www.fab.com/listings/f4622b3a-7cfb-4755-9ede-3f3c75642576) | Bought on Fab **during the jam**, 2026-11-13 (receipt PENDING) | Planned: mud and dirt ground materials for the exterior (8 seamless PBR textures; "Allows usage with AI: No", see ASSET_PROVENANCE §17). | **Not yet in the project** |
 | "Click" (sound) | NenadSimic | [Freesound 157539](https://freesound.org/people/nenadsimic/sounds/157539/) | Free download, **CC0**, during the jam (2026-11-13) | The camera-change click. | **In use** |
+| IM Fell English SC, EB Garamond, Courier Prime (typefaces) | Igino Marini; The EB Garamond Project Authors; The Courier Prime Project Authors | [Google Fonts](https://github.com/google/fonts) (`ofl/` folders) | Free, **SIL Open Font License 1.1**, downloaded during the jam (2026-11-13) | HUD and UI type (IM Fell English SC in use; the other two planned for menus and subtitles). The OFL texts ship with the build (ASSET_PROVENANCE §19). | **In use** (IM Fell English SC) |
 | UE5 Rigged Hand, Male, White 40 | 3D Scan Store | [Store page](https://www.3dscanstore.com/unreal-engine-rigged-hands/ue5-rigged-hand-male-white-40) | Purchased **during the jam** (2026-11-13; license terms PENDING from the receipt) | Trevor's forearms and hands, adapted by the owner to the MetaHuman skeleton. | In the project (2026-11-13), on Trevor |
 | African Slate Quarry | Quixel Megascans | [Fab listing](https://www.fab.com/listings/578d0ceb-5ccb-425f-abd5-e791a21551b6) | Free on Fab; acquisition date and license tier PENDING (owner's Fab Library) | Planned: rocks, ground and dressing of the desert level around the saloon. | In the project (2026-11-12, 22:59 CET), **not yet in gameplay** |
 
@@ -61,6 +62,6 @@ Full records, with evidence and open questions, are in [ASSET_PROVENANCE.md](ASS
 ## Text for the submission form (draft)
 
 > Third-party content (not made by the entrant, used under each source's license, shipped only inside the compiled game):
-> Game Animation Sample 5.8 by Epic Games (player locomotion and traversal); Western Animations by SoerGame (Fab); Eating and Drinking Animation Pack by Animaster Studio (Fab, bought during the jam); Ultimate Horse System by Hivemind (Fab, bought during the jam); Saloon Interior by Quixel Megascans (Fab, acquired before the jam); Ezio Tears – Crying System by Ezz Eldin Medhat (Fab, bought during the jam); HS_WeaponPack_03 (Fab, free); UE5 mannequins and MetaHuman framework by Epic Games.
+> Game Animation Sample 5.8 by Epic Games (player locomotion and traversal); Western Animations by SoerGame (Fab); Eating and Drinking Animation Pack by Animaster Studio (Fab, bought during the jam); Ultimate Horse System by Hivemind (Fab, bought during the jam); Saloon Interior by Quixel Megascans (Fab, acquired before the jam); Ezio Tears – Crying System by Ezz Eldin Medhat (Fab, bought during the jam); HS_WeaponPack_03 (Fab, free); "Click" by NenadSimic (Freesound, CC0); typefaces IM Fell English SC (Igino Marini), EB Garamond (The EB Garamond Project Authors) and Courier Prime (The Courier Prime Project Authors), SIL Open Font License 1.1; UE5 mannequins and MetaHuman framework by Epic Games.
 
 This draft lists every pack currently planned. Before submitting, cut it to the packs that ship.
