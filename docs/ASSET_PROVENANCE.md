@@ -207,6 +207,18 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Redistribution | Not redistributed. The source assets are not published; they ship only inside the compiled game build. |
 | Submission declaration | To be declared as a sourced asset (Official Rules §15(c)). Status: PENDING. |
 
+## 14. NVIDIA DLSS 4.5 plugins for Unreal Engine (NVIDIA)
+
+| Field | Value |
+|---|---|
+| Creator | NVIDIA Corporation. |
+| Source | NVIDIA developer site, https://developer.nvidia.com/rtx/dlss/get-started : "UE 5.8 DLSS Plugin", file `2026.10.16_UE5.8_DLSS4.5Plugin_v8.9.0.zip` (plugin 8.9.0, Streamline SDK 2.14.16, NGX SDK 310.9.16). Downloaded by the owner on 2026-11-13. |
+| License | NVIDIA RTX SDK EULA (in the package). Distribution of the runtime parts inside a game is allowed under its distribution requirements. **Attribution required:** "you must attribute the use of the RTX SDK by including the NVIDIA Marks on splash screens, in the about box of the application (if present), and in credits for game applications." This conflicts with Official Rules §15(d); see [JAM_RULES.md](JAM_RULES.md), Owner decisions §3. |
+| Added to project | 2026-11-13, project-local `Plugins/` (not in git): DLSS, StreamlineNGXCommon, StreamlineCore, StreamlineReflex, StreamlineDLSSG, DLSSMoviePipelineSupport. Not installed: NIS, StreamlineDeepDVC, the deprecated Streamline plugin. |
+| Planned use | DLSS Super Resolution / DLAA / Ray Reconstruction and Frame Generation with Reflex on NVIDIA RTX GPUs; TSR stays the fallback on other GPUs. Candidate for the jam's NVIDIA RTX Award ("DLSS 4.5 (Unreal Engine)"). |
+| Redistribution | Only the plugin's runtime binaries inside the compiled build. Not published otherwise. |
+| Submission declaration | Declare as a third-party SDK, and answer the NVIDIA questions if DLSS ships. Status: PENDING (owner decision on attribution). |
+
 ---
 
 ## Content snapshots (made-during-the-jam evidence)

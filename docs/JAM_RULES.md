@@ -37,6 +37,11 @@ Quotes are verbatim, with the section number of the Official Rules. The "What it
 
    We do not decide this for the owner. Nothing has been removed.
 2. **Sourced assets are not scored (§15(c)(ii)).** The Quixel saloon room (including the level layout we started from), GASP animations, Fab packs and any bought clothing are allowed but will not be reviewed or scored. The score comes from what we make during the jam. This is a strategy point, not a prohibition.
+3. **NVIDIA DLSS attribution vs. the trademark rule (found 2026-11-13).** Two texts pull in opposite directions:
+   - Official Rules §15(d): "Submissions may not feature any trademarks (including logos), except (i) in the case of UE Submissions, the Unreal Engine logo".
+   - NVIDIA RTX SDK EULA (in the DLSS 4.5 plugin package v8.9.0, "Documentation/NVIDIA RTX SDK EULA.pdf"), "NVIDIA Trademark Placement in Applications": "For applications that incorporate the NVIDIA RTX SDK or portions thereof, you must attribute the use of the RTX SDK by including the NVIDIA Marks on splash screens, in the about box of the application (if present), and in credits for game applications."
+   - The jam page itself offers the **NVIDIA RTX Award** for a Render Royalty entry that uses "DLSS 4.5 (Unreal Engine)" (prize: one GeForce RTX 5090; "Answer the NVIDIA questions when you submit"), so the organizers expect DLSS in builds, but neither the jam page nor the Official Rules say whether the NVIDIA attribution required by the EULA is accepted under §15(d).
+   - Status: DLSS installed in the private project for testing (internal use is covered by the EULA's license grant). **OWNER DECISION PENDING:** ask the organizers in writing (the jam page points to the Unreal Engine Forums thread, https://epic.gm/2026-ue-megajam) before shipping DLSS with the NVIDIA marks in splash screen and credits. If the answer is no, the build ships without the NVIDIA plugins (TSR only).
 
 ## Jam page items not in the Official Rules
 
