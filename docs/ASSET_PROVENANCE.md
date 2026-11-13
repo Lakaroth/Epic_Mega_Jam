@@ -229,7 +229,7 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Source | Fab Marketplace: https://www.fab.com/listings/006666c2-ba60-43e6-a61a-7398a44f33c1 (EUR 9.04 before taxes, read 2026-11-13). |
 | Status | **Owner's decision to use it: 2026-11-13, ~09:05 CET** (for the new Trevor's shirt). Purchase date and license tier: PENDING (Fab receipt). |
 | Listing facts | Parametric shirt for MetaHuman Creator ("fits onto any body shape in MetaHumanCreator"; listed body types: tall / medium build, man and woman). MetaHuman skeleton. Static mesh in FBX plus cloth and outfit assets (`CA_`, `OA_`, a Dataflow graph). Folder note mentions UE 5.6 / 5.7. "Generated with AI: No". **"Allows usage with AI: No"**. "License terms": not shown on the listing. |
-| AI rule | Same rule as §12: **no AI agent opens, reads, analyses or edits this pack's files**, nor the shirt's assets once they are part of Trevor. The owner installs it and fits it in MetaHuman Creator by hand. The content manifest skips its folder unread. |
+| AI rule | **Owner's decision (2026-11-13):** the "NoAI" flag forbids using the content to train AI; using it in the game is allowed, and the agents may work with it in the project. No training takes place. |
 | Note | The listing ships cloth-simulation assets; the owner's rule is no Chaos Cloth in the game, so it is used as a skinned garment if the outfit allows it (owner to check). |
 | Pre-jam? | No. Third-party asset obtained during the jam. Sourced asset: noted, not scored (§15(c) of the Official Rules). |
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
