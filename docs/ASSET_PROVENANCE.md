@@ -247,6 +247,20 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
 
+## 17. Dirty and Muddy Terrain Pack (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | 32cm (Fab seller). |
+| Source | Fab Marketplace: https://www.fab.com/listings/f4622b3a-7cfb-4755-9ede-3f3c75642576 (EUR 4.51 before taxes, read 2026-11-13). |
+| Status | **Purchased by the owner during the jam** (recorded 2026-11-13, ~12:15 CET). License tier and receipt: PENDING (Fab receipt). |
+| Listing facts | "8 different seamless PBR textures": soil, mud, gravel, puddles and dirt. Format: "Unreal Engine" (no engine version listed). "Generated with AI: No". **"Allows usage with AI: No"**. "License terms": not shown on the listing. |
+| AI rule | Same flag as the Casual Shirt (§15). The owner's reading recorded there (the flag forbids using the content to train AI; using it in the game is allowed) is applied here. No training takes place. |
+| Use in game | Planned: ground materials (mud and dirt) for the exterior. Not yet in the project. |
+| Pre-jam? | No. Third-party asset bought during the jam. Sourced asset: noted, not scored (§15(c) of the Official Rules). |
+| Redistribution | Not redistributed. Shipped only inside the compiled game build. |
+| Submission declaration | To be declared as a third-party asset if it ships. Status: PENDING. |
+
 ---
 
 ## Content snapshots (made-during-the-jam evidence)
