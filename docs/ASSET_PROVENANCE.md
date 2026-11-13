@@ -294,6 +294,19 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Pre-jam? | No. Third-party asset obtained during the jam (2026-11-13). Sourced asset: noted, not scored (§15(c)). |
 | Redistribution | Shipped only inside the compiled game build. |
 
+## 22. VDB Gunfire Smoke and Muzzle Flashes Pack — DanielHavfx (Superhive Market)
+
+| Field | Value |
+|---|---|
+| Creator | DanielHavfx (Superhive Market creator page; seller "Daniel Ha"). |
+| Source | https://superhivemarket.com/products/vdb-gunfire-smoke-and-muzzle-flashes-pack (read 2026-11-13). |
+| How obtained | Bought by the owner **during the jam**, 2026-11-13 (~17:23 CET), USD 10. Receipt: PENDING (owner). Download about 4 GB. |
+| Contents (from the listing) | 9 high-resolution and 9 lower-resolution gun-smoke VDB sequences, 7 VDB muzzle flashes, 15 pre-rendered 4K smoke PNG sequences with alpha. Made for Blender (2.9–5.2); no Unreal assets in the pack. |
+| License | Superhive "Royalty Free" license (https://superhivemarket.com/page/royalty-free-license, read 2026-11-13): use "for personal, educational, and or commercial purposes"; "You may not resell, redistribute, or repackage the purchased product without explicit permission from the original creator". Use inside a compiled game is not mentioned explicitly: read as use, not redistribution of the product (standard asset-store reading). PENDING: confirmation from the creator if the owner wants it in writing. |
+| Use in game | Planned: the revolver's muzzle smoke (a few PNG sequences packed into flipbook textures for the Niagara smoke) and, for close-ups in the duel or cutscenes, one or two VDB sequences as Sparse Volume Textures. Only the pieces used are imported; the 4 GB download stays outside the project. |
+| Pre-jam? | No. Third-party asset bought during the jam. Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Only the imported pieces, inside the compiled game build. |
+
 ## 21. "revolvercock1.wav" by Dredile (Freesound, CC0)
 
 | Field | Value |
