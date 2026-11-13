@@ -98,9 +98,10 @@ The jam started at 06:00 CET (00:00 ET).
 | 14:50–14:51 | Owner + Claude Code | Owner's cinematic idea, as an experiment: while walking, the third-person view yaws a little left and right in step with the walk, like an operator walking with the character (under 1°, off while aiming). | TRIAL (owner to decide) |
 | 15:08–15:43 | Owner + Claude Code | Sheriff setup: unused hair assets removed, his groom kept. A gap in the chest of his body mesh was checked; the owner regenerated the body and skeleton and replaced the asset. His clothes follow the body (leader pose) and are skinned to the corrective joints, so they get the body's animation and correctives. | IN PROGRESS |
 
+| 16:06 | Owner + Claude Code | **Motion capture session for the cutscenes** (owner): the owner performs the opening scene himself, body and hands with a Rokoko full bundle (suit and gloves), face with an iPhone. The takes are recorded during the jam and become the cutscene animation, made by us. Meanwhile Claude Code works on reloading the revolver (owner approved the plan and the reload clip). | IN PROGRESS |
 ### Next
-- **IN PROGRESS:** the sheriff (body check after the owner's update, animations, hands up at gunpoint) and the opening scene with its dialogue.
-- **PLANNED:** reloading the revolver (animation and logic; plan given, owner's choice pending).
+- **IN PROGRESS:** the opening cutscene from the owner's motion capture (body, hands, face); the sheriff (body check after the owner's update, hands up at gunpoint) and the opening dialogue.
+- **IN PROGRESS:** reloading the revolver (R1 / R key, only the missing rounds, upper body so the player can walk).
 - **PLANNED:** the desert level around the saloon; DLSS and graphics measurements in the saloon; the stairs foot-placement fix (owner's OK needed).
 - **PLANNED:** shooting real bottles outside, the boss duel.
 - **OPEN:** a slower run needs a slow jog animation; none of the current packs has one.
