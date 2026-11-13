@@ -261,6 +261,16 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset if it ships. Status: PENDING. |
 
+## 18. HUD revolver-cylinder icons (made during the jam, AI-generated)
+
+| Field | Value |
+|---|---|
+| Creator | The owner, with ChatGPT image generation (OpenAI), during the jam. Source sheet: "Revolver Cylinder Ammunition Icons.png", file dated 2026-11-13 13:12 CET (seven cylinders, six rounds down to none). |
+| Processing | 2026-11-13: the agent cut the sheet into two sprites, the cylinder body (from the empty cylinder) and one round (from the full cylinder), centred on the pin, cleaned and resized (`/Game/_Game/_UI/HUD/T_HUD_CylinderBody`, `T_HUD_CylinderRound`). The HUD composes the six chambers from them and turns the body 60° after each shot. |
+| Pre-jam? | No. Made during the Contest Period. |
+| Rules | AI-generated content is not a sourced asset (Official Rules §15(c)): it counts as our own content and is scored. |
+| Redistribution | Shipped only inside the compiled game build. The source sheet is not published here. |
+
 ---
 
 ## Content snapshots (made-during-the-jam evidence)
