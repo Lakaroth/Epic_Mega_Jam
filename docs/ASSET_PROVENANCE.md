@@ -235,6 +235,18 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
 
+## 16. UE5 Rigged Hand, Male, White 40 — 3D Scan Store
+
+| Field | Value |
+|---|---|
+| Creator | 3D Scan Store. |
+| Source | https://www.3dscanstore.com/unreal-engine-rigged-hands/ue5-rigged-hand-male-white-40 (the site refuses automated reading; listing details and license not read by the agent). |
+| Status | **Purchased by the owner during the jam** (recorded 2026-11-13, ~10:30 CET). Price, license name and terms: PENDING (owner's receipt and the store's license). |
+| Use in game | Trevor's forearms and hands. The owner adapted them into `SK_West_Hero_Hands` (MetaHuman body skeleton, all 9,308 vertices skinned, fingers included; owner's 2K base colour, normal and specular maps), imported 2026-11-13. The matching arm geometry was removed from a copy of the MetaHuman body (`SKM_MHC_Hero_Western_BodyMesh_NoArms`) so the two never overlap; the seam sits under the shirt. |
+| Pre-jam? | No. Third-party asset bought during the jam. Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Not redistributed. Shipped only inside the compiled game build. |
+| Submission declaration | To be declared as a third-party asset. Status: PENDING. |
+
 ---
 
 ## Content snapshots (made-during-the-jam evidence)
