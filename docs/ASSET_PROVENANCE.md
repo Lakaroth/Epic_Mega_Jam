@@ -193,6 +193,30 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset. Status: PENDING. |
 
+## 13. African Slate Quarry — Quixel Megascans (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | Quixel Megascans (Epic Games). |
+| Source | Fab Marketplace: https://www.fab.com/listings/578d0ceb-5ccb-425f-abd5-e791a21551b6 (free listing). |
+| Status | Third-party asset, not made by the team. |
+| License | The listing shows "Allows usage with AI: Yes" (checked 2026-11-12). License tier and acquisition date are **PENDING OWNER CONFIRMATION** (Fab Library). |
+| Acquired | PENDING OWNER CONFIRMATION (Fab Library). |
+| Added to project | 2026-11-12, 22:59 CET (file creation times in the Content manifest, see "Content snapshots" below): folder `/Game/Scene_QuarrySlate` (396 files: meshes, materials, the showcase map `Quarry_Slate`). Private jam project only. |
+| Planned use | Rocks, ground and dressing for the game's single desert level around the saloon (owner's direction, 2026-11-12). The pack's showcase frame meshes are not used. |
+| Redistribution | Not redistributed. The source assets are not published; they ship only inside the compiled game build. |
+| Submission declaration | To be declared as a sourced asset (Official Rules §15(c)). Status: PENDING. |
+
+---
+
+## Content snapshots (made-during-the-jam evidence)
+
+The project's `Content/` folder (binary assets) is not in version control. To show when each asset appeared or changed (Official Rules §7(h) and §7(j)), the private project keeps a tracked manifest of every file under `Content/`: path, size, creation time, modification time and SHA-256. It is regenerated and committed at the end of each jam day by `Tools/Provenance/content_manifest.py`. Only the manifest's own SHA-256 is published here; the file list itself stays private. Ezio Tears folders are skipped unread (§12).
+
+| Snapshot | Files | Size | Manifest SHA-256 | Private commit |
+|---|---|---|---|---|
+| 2026-11-13 07:56 CET | 4702 | 16.36 GB | `8c06dece711a313c61dc87708227063913f6429e08107255858633dd5fc9b5cc` | 6c4b4b8 |
+
 ---
 
 ## Pre-jam items to declare (summary)
@@ -209,7 +233,7 @@ The jam page asks entrants to "Declare any prompts, scripts, or assets you made 
 | Animaster Studio Eating and Drinking Animation Pack (Fab, purchased) | Bought by the owner during the jam, 2026-11-12 ~14:05 CET. Not pre-jam; listed here so the submission declares it. | Third-party asset (§9). Not yet in the project. |
 | Saloon Interior — Quixel Megascans (Fab) | Acquired by the owner years before the jam. Exact acquisition date and license PENDING VERIFICATION (Library). | Pre-existing third-party asset (§11). In the project since 2026-11-12. |
 | Ezio Tears – Crying System (Fab, purchased) | Bought and paid by the owner during the jam, 2026-11-12 ~16:30 CET (confirmed by the owner). Not pre-jam; listed here so the submission declares it. | Third-party asset (§12). Not yet in the project. |
-| **Trevor "Angel Eyes" Ramsey** (hero MetaHuman) | Created by the owner on 2026-11-11, the day before the jam. Built with MetaHuman Creator and the owner's proprietary MetaWrap tool. Clothing (shirt, trousers) made by the owner; the hat was made with the Tripo AI tool (see AI_TOOLS.md). Hat-hair groom made by the owner. | Pre-jam owner work, imported into the jam project on 2026-11-12 (~11:20 CET, optimized version). Declared as pre-jam. **Official Rules §7(h)** allow only tools, agent setups, MCP settings, prompts and scripts to be made before the jam; other game content must be made during it unless it is a sourced (non-original) asset. OWNER DECISION PENDING: see [JAM_RULES.md](JAM_RULES.md), "Owner decisions". |
+| **Trevor "Angel Eyes" Ramsey** (hero MetaHuman) | Created by the owner on 2026-11-11, the day before the jam. Built with MetaHuman Creator and the owner's proprietary MetaWrap tool. Clothing (shirt, trousers) made by the owner; the hat was made with the Tripo AI tool (see AI_TOOLS.md). Hat-hair groom made by the owner. | Pre-jam owner work, imported into the jam project on 2026-11-12 (~11:20 CET, optimized version). Declared as pre-jam. **Official Rules §7(h)** allow only tools, agent setups, MCP settings, prompts and scripts to be made before the jam; other game content must be made during it unless it is a sourced (non-original) asset. OWNER DECISION PENDING: see [JAM_RULES.md](JAM_RULES.md), "Owner decisions". **2026-11-13 (owner):** this pre-jam version is only a placeholder for tests. The owner is creating a new Trevor during the jam, as a new MetaHuman Character asset; the placeholder is to be replaced by it. |
 
 ---
 
