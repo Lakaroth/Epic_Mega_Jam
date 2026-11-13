@@ -261,6 +261,17 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Redistribution | Not redistributed. Shipped only inside the compiled game build. |
 | Submission declaration | To be declared as a third-party asset if it ships. Status: PENDING. |
 
+## 18. "Click" by NenadSimic (Freesound, CC0)
+
+| Field | Value |
+|---|---|
+| Creator | NenadSimic (Freesound user). |
+| Source | https://freesound.org/people/nenadsimic/sounds/157539/ (read 2026-11-13). |
+| License | **Creative Commons 0** (public domain dedication): commercial use allowed, no attribution required. Credited anyway in the third-party list. |
+| Use in game | The camera-change click (D-pad camera cuts), `/Game/_Game/_Audio/UI/SW_UI_CameraCut`. Chosen by the owner on 2026-11-13. |
+| Pre-jam? | No. Third-party asset obtained during the jam. Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
 ---
 
 ## Content snapshots (made-during-the-jam evidence)
