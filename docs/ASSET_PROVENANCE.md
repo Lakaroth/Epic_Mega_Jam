@@ -318,6 +318,50 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Pre-jam? | No. Third-party asset obtained during the jam (2026-11-13). Sourced asset: noted, not scored (§15(c)). |
 | Redistribution | Shipped only inside the compiled game build. |
 
+## 23. Easy Rain — William Faucher (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | William Faucher (Fab seller). |
+| Source | Fab Marketplace: https://www.fab.com/listings/274c81ae-3554-4801-8ec0-04f93212da06 (read 2026-11-15). |
+| Status | **PURCHASED** by the owner (owner-confirmed, 2026-11-15). |
+| License | PENDING OWNER REVIEW. Verify the purchased license tier in the Fab Library. |
+| Acquired | Purchase date PENDING (from the Fab receipt). |
+| Added to project | 2026-11-15 03:46 CET (file timestamps in `/Game/EasyRain`, 129 files). |
+| Contents | A rain Blueprint and Niagara system, from light rain to storms. It also has two material functions for puddles and droplets on landscapes and meshes; the puddle function supports Nanite displacement. Two demo levels. Needs Mesh Distance Fields. |
+| Use in game | Planned: rain and a thunderstorm at the start of the level (owner, 2026-11-15). |
+| Pre-jam? | No. Third-party asset added to the project during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 24. Niagara Footstep VFX — Sidearm Studios (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | Sidearm Studios (Fab seller). |
+| Source | Fab Marketplace: https://www.fab.com/listings/49dc53b7-0a5f-4905-8951-e42aaf1135e4 (read 2026-11-15). |
+| Status | Free on Fab (owner-confirmed, 2026-11-15). |
+| License | PENDING OWNER REVIEW. Verify the license tier in the Fab Library. |
+| Acquired | Date added to the Fab Library PENDING. |
+| Added to project | 2026-11-15 03:47 CET (file timestamps in `/Game/A_Surface_Footstep`, 329 files). |
+| Contents | 15 Niagara footstep and impact effects: dirt, mud, grass, gravel, ice, heavy and light snow, heavy and light water, sand, two general effects (metal, wood, glass, stone), leaves, sparks and a special ability. One demo scene. |
+| Use in game | Planned: footsteps on mud and water in the rain (owner, 2026-11-15). |
+| Pre-jam? | No. Third-party asset added to the project during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 25. Old West Learning — Epic Education Learning and Training (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | Epic Education Learning and Training (Fab seller). |
+| Source | Fab Marketplace: https://www.fab.com/listings/785da98f-3c56-4736-b898-826116d8f06f (read 2026-11-15). Last listing update: 2023-02-20. |
+| Status | Free on Fab, added by the owner **during the jam** (2026-11-15). |
+| License | The listing names no license ("-"). Owner's statement (2026-11-15): free Fab content, usable in the game under the Fab Standard License (commercial use, modification, distribution inside a compiled game). License attached to the owner's Library copy: PENDING OWNER REVIEW. |
+| Acquired | 2026-11-15. Fab offers it as a project for UE 5.1/5.2 only; it is converted to UE 5.8 and the pieces used are migrated into this project. |
+| Contents (from the listing) | "Northwood", a lumber town by a river: 6+ modular building structures, 4 interiors set dressed for a player character, a riverbed and ravine, landscape-spline roads, modular bridges and walkways, collisions and level setup for gameplay, lighting, post processing and cameras. |
+| Use in game | Planned (owner, 2026-11-15): the base of LV1's town, around the stable at the end of the escort. The owner removes most of the map and customises the rest; only the pieces used are migrated. |
+| Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Only the migrated pieces, inside the compiled game build. |
+
 ---
 
 ## Content snapshots (made-during-the-jam evidence)
