@@ -169,3 +169,44 @@ How the work was split (owner's notes):
 - **PLANNED:** an aim offset from aim poses the owner records in the Rokoko suit, with the exact arm IK on top.
 - **PLANNED:** Astra's broken bottle pieces on the bottle targets.
 - **PLANNED:** the packaged game measured on the laptop (quality levels, upscaling, hair detail on the lower levels); the ambushers back in their final positions before the final build.
+
+## Day 4 — Sunday 2026-11-15
+
+*Day 4 and the final night were written after the deadline (2026-11-16, about 03:30 CET) from the session records. Day 4 is summarised without exact times; "~" marks approximate times. Times on the final night come from build, upload and itch.io logs.*
+
+| Time (CET) | Who | What | Status |
+|---|---|---|---|
+| Day | Owner + Claude Code | **LV1 becomes "Northwood".** The level is built on a copy of the Old West Learning map (houses removed, the mill kept). The escort route ends at the mill. | DONE |
+| Day | Owner + Claude Code | Escort systems in C++: the sheriff walks at gunpoint (his hands-up walk blended in code), outlaws ambush at the gate, health and hits, lock-on with a flick of the right stick to switch target. Trevor's ragdoll on death switched off. | DONE |
+| ~19:27–20:21 | Owner + Claude Code | The storm: Easy Rain grows into a thunderstorm along the walk, with the game's own lightning, a looped distant storm, thunder at most twice per run and a rain loop; an M5 bonfire at the start of the level; a night HDRI ([ASSET_PROVENANCE.md](ASSET_PROVENANCE.md) §23, §26–§30). | DONE |
+| Day | Owner + Claude Code | Audio levels across the game: dialogue at -24 LUFS as the anchor; shots, whistle, mechanics and UI set around it through the SoundWave volume. | DONE |
+| ~22:00 | Owner + Claude Code | **Carson's letter.** A "Take the letter" prompt on the Square button, a pickup animation, the letter read on a dark page in the game's serif; then the beams collapse and close one exit of the house (sound: §31). | DONE |
+| Evening | Owner + Claude Code | Collisions on the walk: open stair treads, a road spline that blocked the curve at the gate, ramps on the mill steps. | DONE |
+| Evening | Owner + Claude Code | **Game Over for every death:** the game pauses on "GAME OVER" with Retry (last checkpoint), Restart and Exit. The duel reworked: eyes cameras and a timing bar with a drifting green zone. | DONE |
+| Late evening | Owner + Claude Code | **Donovan's stand-off,** the owner's own Sequencer cutscene: a fade to black, a full-detail preload so it never starts on low LODs, its music carried past the end, then "TWO DAYS EARLIER". | DONE |
+| ~23:45 → night | Owner + Claude Code | **The saloon memory.** Maya, a new MetaHuman singer (body takes retargeted, face from MetaHuman Animator; skirt §32), sings in the owner's sequence while Trevor remembers her. The demo now ends here, with credits scrolling on the right. | DONE |
+
+## Final night — Monday 2026-11-16 (deadline 02:59 CET)
+
+| Time (CET) | Who | What | Status |
+|---|---|---|---|
+| ~00:30–01:40 | Owner + Claude Code | **The title is BLOOD & SAND.** A title map with the owner's scene and theme music, "Press any button to start", a Leone-style text on black, a controls page, a page on the Director's Cut idea, then Northwood. Connected Director's Cut zones along the walk (gate, mill front, mill floor, letter), so the D-pad always has the shots of the place the player is in. | DONE |
+| 01:48–02:02 | Claude Code | A title-screen Blueprint error fixed in C++ (the title's Trevor expects a parent pawn: a stand-in parent during BeginPlay). A loading screen with a progress bar that waits for streaming; the walk starts behind Trevor on the sheriff's back, with the objective on screen; the title theme carries into the game and fades over 10 s; the controls page redrawn as a table (gamepad and keyboard columns by section, plus the HUD). Editor rebuilt at 02:01. | DONE |
+| 02:02–02:25 | Owner + Claude Code | Last fixes in the editor: the title hat's offset (measured in Play) and the final scene's camera. The owner made MayaSaloon1 with one fixed camera for the ending. | DONE |
+| 02:18–02:21 | Claude Code | Shipping package of the title, Northwood and the saloon (cook 2 min 46 s, staged 7.3 GB). | DONE |
+| 02:21–02:30 | Claude Code | That build uploaded with butler to the game's itch.io page, channel windows (7.15 GiB). itch.io then processed it until about 05:00. | DONE |
+| 02:30–02:34 | Claude Code | A second package with the late fixes (title, final scene). It could not be uploaded before the deadline: itch.io accepts no new build while the previous one is processing. | — |
+| 02:52 | Owner | **Submitted to the 2026 Epic AI MegaJam** as BLOOD & SAND, 6 minutes before the deadline: gameplay video, instructions, pre-jam list, AI tools and third-party content. | DONE |
+| 03:07 | Claude Code | After the deadline a new upload channel is refused ("new uploads are locked on this project during 2026 Epic AI MegaJam"); the second package waits for itch.io to finish processing the first build. | — |
+
+## After the deadline — Monday 2026-11-16
+
+*Written on 2026-11-16, about 10:45 CET.*
+
+| Time (CET) | Who | What | Status |
+|---|---|---|---|
+| Night | Epic Games | Submissions reopened on itch.io "until 10 PM PST" for jammers whose uploads had failed; the jam page's end moved to 08:00 CET (07:00 UTC). | — |
+| 05:15 | Claude Code | The second package (the title without the hero, the logo centred, the final scene on the owner's fixed MayaSaloon1 camera with no D-pad) uploaded to the same channel, inside the reopened window, as a 112 MiB patch. itch.io finished processing it at about 09:15: it is version 2 of the download. | DONE |
+| 09:32–09:45 | Claude Code | Checked as an anonymous visitor: the entry is in the jam's public entry list (submitted 02:52:51 CET); the game page and the download are public. | DONE |
+| Morning | Owner | Submission form: entered the Render Royalty NVIDIA RTX Award with NVIDIA DLSS (DLSS Super Resolution, Frame Generation and Reflex ship in the build; NVIDIA's trademark notice is in the credits). | DONE |
+| 10:19–10:45 | Claude Code | Final Content snapshot (taken after the deadline) and this repository brought up to date: Day 4 and the final night of this log; every third-party asset checked against the shipped file list ([ASSET_PROVENANCE.md](ASSET_PROVENANCE.md), "Final build check"); seven third-party assets that were in the build but missing from the published list (§26–§32); the third-party summary; the README. | DONE |

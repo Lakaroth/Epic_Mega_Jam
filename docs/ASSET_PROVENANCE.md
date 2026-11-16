@@ -329,7 +329,7 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Acquired | Purchase date PENDING (from the Fab receipt). |
 | Added to project | 2026-11-15 03:46 CET (file timestamps in `/Game/EasyRain`, 129 files). |
 | Contents | A rain Blueprint and Niagara system, from light rain to storms. It also has two material functions for puddles and droplets on landscapes and meshes; the puddle function supports Nanite displacement. Two demo levels. Needs Mesh Distance Fields. |
-| Use in game | Planned: rain and a thunderstorm at the start of the level (owner, 2026-11-15). |
+| Use in game | In gameplay: the rain of LV1. It starts during the walk and grows into a thunderstorm (the lightning is the game's own code). |
 | Pre-jam? | No. Third-party asset added to the project during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
 | Redistribution | Shipped only inside the compiled game build. |
 
@@ -362,6 +362,141 @@ Pixabay Content License, as summarised in Pixabay's FAQ and Terms (read 2026-11-
 | Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
 | Redistribution | Only the migrated pieces, inside the compiled game build. |
 
+## 26. M5 VFX Vol2. Fire and Flames (Niagara) — M5VFX (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | M5VFX (Fab seller). |
+| Source | Fab Marketplace: https://www.fab.com/listings/c5b0270a-a295-4644-a4be-42cb1e56a197 (read 2026-11-15). Latest changelog entry: v1.55 (no date shown). |
+| Status | Free on Fab, added by the owner **during the jam** (2026-11-15). |
+| License | The listing shows no license terms ("-"). License attached to the owner's Library copy: PENDING OWNER REVIEW. |
+| Acquired | 2026-11-15. |
+| Added to project | 2026-11-15 19:27 CET (file timestamps in `/Game/M5VFXVOL2`, 433 files). |
+| Contents (from the listing) | Niagara effects for candles, bonfires, fire, flames and explosions, from small to large, with ready-made flame Blueprint props and image-sequence textures. Two reference maps. |
+| Use in game | In gameplay: the fire at the start of LV1 (an M5 bonfire Niagara system on Northwood logs, in the game's BP_DC_Campfire). It links to the opening cutscene. |
+| Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 27. "distant storm 1.WAV" by Soojay (Freesound, CC0)
+
+| Field | Value |
+|---|---|
+| Creator | Soojay (Freesound user). |
+| Source | https://freesound.org/people/Soojay/sounds/319568/ (read 2026-11-15). Uploaded 2015-08-13. |
+| License | Creative Commons 0 (CC0). |
+| Acquired | Downloaded by the owner during the jam (2026-11-15, 19:38 CET). |
+| Contents | A distant thunderstorm with gentle rain, 2:58, WAV 48 kHz stereo. |
+| Changes | Made into a seamless 172 s loop (the last 6 s cross-faded into the start), levelled to about -32 LUFS through the SoundWave volume. Asset `SW_Storm_Distant_Loop`. |
+| Use in game | In gameplay: the storm's ambience in LV1. It comes in as the sky closes during the walk. |
+| Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 28. "heavy thunder sound effect - no copyright" by PoorArtistt (Pixabay)
+
+| Field | Value |
+|---|---|
+| Creator | PoorArtistt (Pixabay user). |
+| Source | https://pixabay.com/sound-effects/nature-heavy-thunder-sound-effect-no-copyright-338980/ (read 2026-11-15). Published 2025-05-12. |
+| License | Pixabay Content License. |
+| Acquired | Downloaded by the owner during the jam (2026-11-15, 19:38 CET). |
+| Contents | One heavy thunderclap, 6 s, MP3. |
+| Changes | Converted to WAV 48 kHz and levelled to about -20 LUFS through the SoundWave volume. Asset `SW_Thunder_Heavy`. |
+| Use in game | In gameplay: the thunder after a lightning strike, at most twice per run, delayed by the strike's distance. |
+| Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 29. "Rain Slowly Passing TREATED LOOP_Edgewater_06192020.wav" by speakwithanimals (Freesound, CC0)
+
+| Field | Value |
+|---|---|
+| Creator | speakwithanimals (Freesound user). |
+| Source | https://freesound.org/people/speakwithanimals/sounds/525046/ (read 2026-11-15). Uploaded 2020-07-04. |
+| License | Creative Commons 0 (CC0). |
+| Acquired | Downloaded by the owner during the jam (2026-11-15). |
+| Contents | Steady rain, 13:52, WAV 48 kHz 24-bit stereo, described by its author as a loopable sample. |
+| Changes | A 90 s stretch (from 1:00) made into a seamless loop (5 s cross-fade), 16-bit, levelled to about -30 LUFS through the SoundWave volume. Asset `SW_Rain_Loop`. |
+| Use in game | In gameplay: the rain's sound in LV1. It comes in with the rain during the walk and follows its strength. |
+| Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 30. "Solitude Night" HDRI by Andreas Mischok (Poly Haven, CC0)
+
+| Field | Value |
+|---|---|
+| Creator | Andreas Mischok (Poly Haven). |
+| Source | https://polyhaven.com/a/solitude_night (read 2026-11-15). Released about five years before the jam. |
+| License | Creative Commons 0 (CC0). |
+| Acquired | Downloaded by the owner during the jam (2026-11-15, 20:21 CET): `solitude_night_2k.hdr` (2K). |
+| Contents | A moonlit, partly cloudy night sky over a field, 12 EV. |
+| Use in game | In gameplay: the night sky of LV1, through the HDRI Backdrop plugin. |
+| Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 31. "wooden ship break" by freesound_community (Pixabay)
+
+| Field | Value |
+|---|---|
+| Creator | freesound_community (Pixabay user). |
+| Source | https://pixabay.com/sound-effects/film-special-effects-wooden-ship-break-85277/ (id 85277). |
+| License | Pixabay Content License. |
+| Acquired | Downloaded by the owner during the jam (2026-11-15, 22:14 CET). |
+| Contents | A wooden structure cracking and falling, 4.2 s, MP3 (24 kHz stereo). |
+| Changes | Converted to WAV 48 kHz and lowered by 3.9 dB, to a maximum momentary loudness of about -12.6 LUFS (the gunshots' level). Asset `SW_Collapse_WoodBreak`. |
+| Use in game | In gameplay: the beams that close one exit of the house after Carson's letter is read (LV1). |
+| Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+## 32. "High-Waisted A-Line Mini Skirt - Metahuman Compatible" by 2AwesomeWork (Fab)
+
+| Field | Value |
+|---|---|
+| Creator | 2AwesomeWork (Fab seller). |
+| Source | https://www.fab.com/listings/773c7764-4c6f-483f-8e1f-85469d4e9da5 (read 2026-11-15, 23:47 CET). |
+| License | Fab licence bought by the owner; tier PENDING (from the receipt in the owner's Fab Library). |
+| Acquired | Purchased on Fab by the owner during the jam (2026-11-15, about 23:45 CET). |
+| Contents | One MetaHuman-compatible skirt mesh with three material styles (leather, linen, nylon). |
+| Changes | None planned beyond fitting it to the character and picking a material. |
+| Use in game | In the build: the skirt of Maya, the singer in the saloon memory. |
+| Pre-jam? | No. Third-party asset added during the jam (2026-11-15). Sourced asset: noted, not scored (§15(c)). |
+| Redistribution | Shipped only inside the compiled game build. |
+
+---
+
+## Final build check (2026-11-16)
+
+Every third-party asset above, checked against the file list of the shipped Windows package (version 2 on itch.io, packaged 2026-11-16 02:30 CET). "Yes" means files of that asset are in the build. Where a section's "Use in game" still says "Planned", this table gives the final answer.
+
+| § | Asset | In the final build |
+|---|---|---|
+| 1 | Gamma Studio — Free Animation Pack | No |
+| 2 | Western Animations — SoerGame | No: none of its clips ship |
+| 3 | Epic Games content (UE5 Mannequin, template content) | Yes |
+| 4 | Game Animation Sample (GASP) | Yes: player locomotion and traversal |
+| 5 | Ultimate Horse System — Hivemind | Yes: two of its files |
+| 6 | HS_WeaponPack_03 | Yes |
+| 7 | Quantum Stage — Motion Matching Walk Dance Card | No |
+| 9 | Eating and Drinking Animation Pack — Animaster Studio | No |
+| 10 | Revolver sounds (Pixabay): shot, hammer, cylinder spin | Yes. The draw sound `SW_Revolver_Draw` (from `drawgun.wav`) also ships; its source and license are still PENDING OWNER REVIEW |
+| 11 | Saloon Interior — Quixel Megascans | Yes |
+| 12 | Ezio Tears – Crying System | No: not in the project |
+| 13 | African Slate Quarry — Quixel Megascans | Yes |
+| 14 | NVIDIA DLSS 4.5 plugins | Yes: DLSS Super Resolution, Frame Generation, Reflex |
+| 15 | Casual Shirt – MetaHuman Clothes | Yes: the hero's shirt |
+| 16 | UE5 Rigged Hand — 3D Scan Store | Yes: the hero's hands |
+| 17 | Dirty and Muddy Terrain Pack | No |
+| 18 | "Click" — NenadSimic | Yes: the camera-cut click |
+| 19 | Typefaces (SIL Open Font License) | Yes: all three |
+| 20 | "Revolver Loading - Remington 1875" | Yes |
+| 21 | "revolvercock1.wav" | Yes |
+| 22 | VDB Gunfire Smoke and Muzzle Flashes Pack | Yes: the muzzle-smoke flipbook |
+| 23 | Easy Rain | Yes |
+| 24 | Niagara Footstep VFX | No |
+| 25 | Old West Learning | Yes: LV1 ("Northwood") |
+| 26–32 | Fire, distant storm, thunder, rain loop, night HDRI, wood break, skirt | Yes |
+| — | Outlaws' death cries and the Wilhelm scream (Freesound CC0, Pixabay; [SUBMISSION_THIRD_PARTY.md](SUBMISSION_THIRD_PARTY.md)) | Yes |
+
+§8 lists props the owner generated with Tripo during the jam: AI-generated content counts as our own (§15(c)), not as third-party content.
+
 ---
 
 ## Content snapshots (made-during-the-jam evidence)
@@ -373,6 +508,9 @@ The project's `Content/` folder (binary assets) is not in version control. To sh
 | 2026-11-13 07:56 CET | 4702 | 16.36 GB | `8c06dece711a313c61dc87708227063913f6429e08107255858633dd5fc9b5cc` | 6c4b4b8 |
 | 2026-11-13 20:54 CET | 4922 | 17.25 GB | `28f6b4432709ba0c669ef1fffa680e24be37d5fd09af4a0609dbcde7ab71ac26` | 60a28ca |
 | 2026-11-14 21:17 CET | 5403 | 18.59 GB | `236a9bad083b45b6da6ca4c64759fe226f7951e20fa04364f0e6f82d37402942` | 2ea1112 |
+| 2026-11-16 10:19 CET (final, taken after the deadline) | 8935 | 39.57 GB | `f7512d94c5c4c7579e6473ac14951bc98b3baa02439e90b8226941ea9679cb90` | b21f7f3 |
+
+No snapshot was taken at the end of Day 4 (2026-11-15). The final one was taken on 2026-11-16 at 10:19 CET, after the deadline; the code committed with it was last changed at 02:38 CET, before the deadline.
 
 ---
 
