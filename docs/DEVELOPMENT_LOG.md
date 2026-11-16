@@ -201,7 +201,7 @@ How the work was split (owner's notes):
 
 ## After the deadline — Monday 2026-11-16
 
-*Written on 2026-11-16, about 10:45 CET.*
+*Written on 2026-11-16, about 10:25 CET.*
 
 | Time (CET) | Who | What | Status |
 |---|---|---|---|
@@ -209,4 +209,4 @@ How the work was split (owner's notes):
 | 05:15 | Claude Code | The second package (the title without the hero, the logo centred, the final scene on the owner's fixed MayaSaloon1 camera with no D-pad) uploaded to the same channel, inside the reopened window, as a 112 MiB patch. itch.io finished processing it at about 09:15: it is version 2 of the download. | DONE |
 | 09:32–09:45 | Claude Code | Checked as an anonymous visitor: the entry is in the jam's public entry list (submitted 02:52:51 CET); the game page and the download are public. | DONE |
 | Morning | Owner | Submission form: entered the Render Royalty NVIDIA RTX Award with NVIDIA DLSS (DLSS Super Resolution, Frame Generation and Reflex ship in the build; NVIDIA's trademark notice is in the credits). | DONE |
-| 10:19–10:45 | Claude Code | Final Content snapshot (taken after the deadline) and this repository brought up to date: Day 4 and the final night of this log; every third-party asset checked against the shipped file list ([ASSET_PROVENANCE.md](ASSET_PROVENANCE.md), "Final build check"); seven third-party assets that were in the build but missing from the published list (§26–§32); the third-party summary; the README. | DONE |
+| 10:19–10:28 | Claude Code | Final Content snapshot (taken after the deadline) and this repository brought up to date: Day 4 and the final night of this log; every third-party asset checked against the shipped file list ([ASSET_PROVENANCE.md](ASSET_PROVENANCE.md), "Final build check"); seven third-party assets that were in the build but missing from the published list (§26–§32); the third-party summary; the README. | DONE |
